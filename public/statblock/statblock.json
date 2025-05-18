@@ -1,0 +1,50 @@
+[
+  {
+    "id": "Goblin", 
+    "HP": "15 (2d6+3)", 
+    "AC": "12", 
+    "Speed": "Walk 30 ft."
+  },
+  {
+    "id": "Kobold", 
+    "HP": "20 (2d10+1)", 
+    "AC": "15", 
+    "Speed": "Walk 30 ft."
+  },
+  {
+    "id": "Orc", 
+    "HP": "20 (2d10+1)", 
+    "AC": "15", 
+    "Speed": "Walk 30 ft."
+  },
+  {
+    "id": "Cultist", 
+    "HP": "20 (2d10+1)", 
+    "AC": "15", 
+    "Speed": "Walk 30 ft."
+  },
+  {
+    "id": "Gnome", 
+    "HP": "20 (2d10+1)", 
+    "AC": "15", 
+    "Speed": "Walk 30 ft."
+  },
+  {
+    "id": "Zombie", 
+    "HP": "20 (2d10+1)", 
+    "AC": "15", 
+    "Speed": "Walk 30 ft."
+  },
+  {
+    "id": "Skeleton", 
+    "HP": "20 (2d10+1)", 
+    "AC": "15", 
+    "Speed": "Walk 30 ft."
+  },
+  {
+    "id": "Vermling", 
+    "HP": "20 (2d10+1)", 
+    "AC": "15", 
+    "Speed": "Walk 30 ft."
+  }
+]

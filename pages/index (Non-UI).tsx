@@ -102,14 +102,20 @@ export default function Home() {
     setRound(1);
   };
 
+  // Modified nextTurn to handle conditions sequentially
   const nextTurn = () => {
+    // Set processing flag to prevent multiple triggers
     setProcessingConditions(true);
+    
+    // Trigger end of turn condition checks
     setEndTurnTrigger(true);
   };
 
+  // Handle the end of condition resolution
   const handleEndConditionResolved = () => {
     setEndTurnTrigger(false);
     
+    // Actually change turns
     if (turnIndex + 1 >= characters.length) {
       const sorted = sortCharacters(characters);
       setCharacters(sorted);
@@ -118,30 +124,32 @@ export default function Home() {
       setTurnIndex((prev) => prev + 1);
     }
     
+    // Schedule start of turn trigger for next frame to ensure UI updates first
     setTimeout(() => {
       setStartTurnTrigger(true);
       setProcessingConditions(false);
     }, 50);
   };
 
+  // Handle the start of condition resolution completed
   const handleStartConditionResolved = () => {
     setStartTurnTrigger(false);
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white p-2 md:p-4">
-      <div className="flex flex-col md:flex-row justify-between items-center mb-4 gap-2">
-        <h1 className="text-xl md:text-3xl font-bold">CCT5e - Initiative Tracker</h1>
+    <div className="min-h-screen bg-gray-900 text-white p-4">
+      <div className="flex justify-between items-center mb-4">
+        <h1 className="text-3xl font-bold">CCT5e - Initiative Tracker</h1>
         {!combatStarted ? (
           <button
-            className="w-full md:w-auto bg-blue-600 text-white px-4 py-2 rounded"
+            className="bg-blue-600 text-white px-4 py-2 rounded"
             onClick={startCombat}
           >
             เริ่ม Combat
           </button>
         ) : (
           <button
-            className="w-full md:w-auto bg-red-600 text-white px-4 py-2 rounded"
+            className="bg-red-600 text-white px-4 py-2 rounded"
             onClick={resetCombat}
           >
             จบ Combat
@@ -149,9 +157,9 @@ export default function Home() {
         )}
       </div>
 
-      <div className="flex flex-col sm:flex-row gap-2 mb-4">
+      <div className="flex gap-2 mb-4">
         <button
-          className="flex-1 bg-blue-500 text-white px-4 py-2 rounded text-sm md:text-base"
+          className="bg-blue-500 text-white px-4 py-2 rounded"
           onClick={() => {
             setAddingType("PC");
             setIsModalOpen(true);
@@ -160,7 +168,7 @@ export default function Home() {
           + Add PC
         </button>
         <button
-          className="flex-1 bg-green-600 text-white px-4 py-2 rounded text-sm md:text-base"
+          className="bg-green-600 text-white px-4 py-2 rounded"
           onClick={() => {
             setAddingType("Monster");
             setIsModalOpen(true);
@@ -171,7 +179,7 @@ export default function Home() {
       </div>
 
       {combatStarted && (
-        <div className="text-center text-lg md:text-xl font-semibold mb-2">
+        <div className="text-center text-xl font-semibold mb-2">
           รอบที่ {round}
         </div>
       )}
@@ -184,6 +192,7 @@ export default function Home() {
             onDeleteCharacter={() => {
               setCharacters((prev) => {
                 const updated = prev.filter((c) => c !== char);
+                // ถ้าลบตัวที่เล่นอยู่ตอนนี้
                 if (combatStarted && prev[turnIndex] === char) {
                   if (updated.length === 0) return [];
                   if (turnIndex >= updated.length) {
