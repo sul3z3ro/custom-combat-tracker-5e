@@ -1,0 +1,159 @@
+/* StatblockPopup.css */
+.statblock-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999999;
+}
+
+.statblock-popup {
+  width: 400px;
+  max-height: 80vh;
+  overflow-y: auto;
+  background-color: #fdf1dc; /* Classic D&D statblock color */
+  border: 2px solid #922610;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  position: relative;
+  color: #000;
+  font-family: 'Noto Serif', serif;
+}
+
+.statblock-header {
+  text-align: center;
+  border-bottom: 1px solid #7a200d;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.statblock-header h2 {
+  margin: 0;
+  font-size: 1.6em;
+  color: #7a200d;
+}
+
+.statblock-subtitle {
+  font-style: italic;
+  margin: 5px 0;
+}
+
+.statblock-source {
+  font-size: 0.8em;
+  color: #666;
+}
+
+.statblock-basic-info {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #7a200d;
+}
+
+.statblock-info-item {
+  margin: 5px 0;
+}
+
+.statblock-label {
+  font-weight: bold;
+  color: #7a200d;
+}
+
+.statblock-abilities {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  border-top: 1px solid #7a200d;
+  border-bottom: 1px solid #7a200d;
+  padding: 10px 0;
+}
+
+.ability-block {
+  text-align: center;
+  width: 16%;
+}
+
+.ability-name {
+  font-weight: bold;
+  color: #7a200d;
+}
+
+.ability-score {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.ability-modifier {
+  font-size: 0.9em;
+}
+
+.statblock-section {
+  margin: 5px 0;
+}
+
+.statblock-block {
+  margin: 15px 0;
+}
+
+.statblock-block h3 {
+  border-bottom: 1px solid #7a200d;
+  font-size: 1.2em;
+  color: #7a200d;
+  margin-bottom: 5px;
+  padding-bottom: 3px;
+}
+
+.statblock-action {
+  margin: 8px 0;
+  text-align: justify;
+}
+
+.action-name {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.statblock-footer {
+  margin-top: 15px;
+  font-size: 0.9em;
+  border-top: 1px solid #7a200d;
+  padding-top: 10px;
+}
+
+.statblock-close-button {
+  display: block;
+  margin: 15px auto 5px;
+  padding: 8px 16px;
+  background-color: #7a200d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.statblock-close-button:hover {
+  background-color: #922610;
+}
+
+/* For mobile responsiveness */
+@media (max-width: 480px) {
+  .statblock-popup {
+    width: 90%;
+    max-height: 85vh;
+  }
+  
+  .statblock-abilities {
+    flex-wrap: wrap;
+  }
+  
+  .ability-block {
+    width: 30%;
+    margin-bottom: 10px;
+  }
+}

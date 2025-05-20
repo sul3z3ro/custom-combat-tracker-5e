@@ -50,7 +50,7 @@ type Props = {
 };
 
 export default function ConditionModal({ onAdd, onCancel, currentRound }: Props) {
-  const [name, setName] = useState("Poisoned");
+  const [name, setName] = useState("Blinded");
   const [customName, setCustomName] = useState("");
   const [customColor, setCustomColor] = useState("");
   const [textColor, setTextColor] = useState("#FFFFFF");
@@ -91,7 +91,7 @@ export default function ConditionModal({ onAdd, onCancel, currentRound }: Props)
     <div className="fixed inset-0 backdrop-blur-sm bg-grey bg-opacity-60 z-[9999] flex items-center justify-center p-2 sm:p-4">
       <div className="bg-white p-3 sm:p-4 rounded w-full max-w-sm sm:max-w-md text-black max-h-[90vh] overflow-y-auto">
         <div className="space-y-2 sm:space-y-3">
-          <h2 className="text-lg sm:text-xl font-bold mb-1 sm:mb-2">เพิ่มสถานะ</h2>
+          <h2 className="text-lg sm:text-xl font-bold mb-1 sm:mb-2">Add Condition</h2>
 
           <select 
             value={name} 
@@ -107,13 +107,13 @@ export default function ConditionModal({ onAdd, onCancel, currentRound }: Props)
             <>
               <input
                 type="text"
-                placeholder="ชื่อสถานะ"
+                placeholder="Condition Name"
                 value={customName}
                 onChange={(e) => setCustomName(e.target.value)}
                 className="w-full p-1 sm:p-2 border rounded text-sm sm:text-base"
               />
 
-              <div className="text-xs sm:text-sm mt-1 sm:mt-2">เลือกสี:</div>
+              <div className="text-xs sm:text-sm mt-1 sm:mt-2">Select Color:</div>
               <div className="grid grid-cols-7 sm:grid-cols-13 gap-1">
                 {colorPresets.map(color => (
                   <div
@@ -151,7 +151,7 @@ export default function ConditionModal({ onAdd, onCancel, currentRound }: Props)
             type="number"
             value={rounds}
             onChange={(e) => setRounds(e.target.value)}
-            placeholder="จำนวนรอบ (ไม่ใส่ = ถาวร)"
+            placeholder="Duartion (round)"
             className="w-full p-1 sm:p-2 border rounded text-sm sm:text-base"
           />
 
@@ -169,16 +169,16 @@ export default function ConditionModal({ onAdd, onCancel, currentRound }: Props)
           <div className="flex justify-end gap-2 mt-3">
             <button 
               onClick={onCancel} 
-              className="px-3 py-1 bg-gray-300 rounded text-sm sm:text-base"
+              className="bg-red-500 text-black px-2 py-1 text-xs md:text-sm rounded cursor-pointer hover:bg-red-600 transition-colors"
             >
-              ยกเลิก
+              Cancel
             </button>
             <button
               onClick={handleAdd}
               disabled={name === "Other" && !customColor}
-              className="px-3 py-1 bg-blue-500 text-white rounded disabled:opacity-50 text-sm sm:text-base"
+              className="bg-blue-500 text-white px-2 py-1 text-xs md:text-sm rounded cursor-pointer hover:bg-blue-600 transition-colors"
             >
-              เพิ่มสถานะ
+              Add Condition
             </button>
           </div>
         </div>

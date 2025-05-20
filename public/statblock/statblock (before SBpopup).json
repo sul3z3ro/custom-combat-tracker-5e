@@ -1,0 +1,3859 @@
+[
+  {
+    "id": "Aarakocra Aeromancer",
+    "HP": "66",
+    "AC": "16",
+    "Speed": "20 ft., fly 50 ft.",
+    "avatarUrl": "/images/monsters/mm25-1.png"
+  },
+  {
+    "id": "Aarakocra Skirmisher",
+    "HP": "11",
+    "AC": "12",
+    "Speed": "20 ft., fly 50 ft.",
+    "avatarUrl": "/images/monsters/mm25-2.png"
+  },
+  {
+    "id": "Aberrant Cultist",
+    "HP": "137",
+    "AC": "14",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-3.png"
+  },
+  {
+    "id": "Aboleth",
+    "HP": "150",
+    "AC": "17",
+    "Speed": "10 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-4.png"
+  },
+  {
+    "id": "Abominable Yeti",
+    "HP": "137",
+    "AC": "15",
+    "Speed": "40 ft., climb 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-5.png"
+  },
+  {
+    "id": "Adult Black Dragon",
+    "HP": "195",
+    "AC": "19",
+    "Speed": "40 ft., fly 80 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-6.png"
+  },
+  {
+    "id": "Adult Blue Dragon",
+    "HP": "212",
+    "AC": "19",
+    "Speed": "40 ft., burrow 30 ft., fly 80 ft.",
+    "avatarUrl": "/images/monsters/mm25-7.png"
+  },
+  {
+    "id": "Adult Brass Dragon",
+    "HP": "172",
+    "AC": "18",
+    "Speed": "40 ft., burrow 30 ft., fly 80 ft.",
+    "avatarUrl": "/images/monsters/mm25-8.png"
+  },
+  {
+    "id": "Adult Bronze Dragon",
+    "HP": "212",
+    "AC": "18",
+    "Speed": "40 ft., fly 80 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-9.png"
+  },
+  {
+    "id": "Adult Copper Dragon",
+    "HP": "184",
+    "AC": "18",
+    "Speed": "40 ft., climb 40 ft., fly 80 ft.",
+    "avatarUrl": "/images/monsters/mm25-10.png"
+  },
+  {
+    "id": "Adult Gold Dragon",
+    "HP": "243",
+    "AC": "19",
+    "Speed": "40 ft., fly 80 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-11.png"
+  },
+  {
+    "id": "Adult Green Dragon",
+    "HP": "207",
+    "AC": "19",
+    "Speed": "40 ft., fly 80 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-12.png"
+  },
+  {
+    "id": "Adult Red Dragon",
+    "HP": "256",
+    "AC": "19",
+    "Speed": "40 ft., climb 40 ft., fly 80 ft.",
+    "avatarUrl": "/images/monsters/mm25-13.png"
+  },
+  {
+    "id": "Adult Silver Dragon",
+    "HP": "216",
+    "AC": "19",
+    "Speed": "40 ft., fly 80 ft.",
+    "avatarUrl": "/images/monsters/mm25-14.png"
+  },
+  {
+    "id": "Adult White Dragon",
+    "HP": "200",
+    "AC": "18",
+    "Speed": "40 ft., burrow 30 ft., fly 80 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-15.png"
+  },
+  {
+    "id": "Air Elemental",
+    "HP": "90",
+    "AC": "15",
+    "Speed": "10 ft., fly 90 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-16.png"
+  },
+  {
+    "id": "Allosaurus",
+    "HP": "51",
+    "AC": "13",
+    "Speed": "60 ft.",
+    "avatarUrl": "/images/monsters/mm25-17.png"
+  },
+  {
+    "id": "Ancient Black Dragon",
+    "HP": "367",
+    "AC": "22",
+    "Speed": "40 ft., fly 80 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-18.png"
+  },
+  {
+    "id": "Ancient Blue Dragon",
+    "HP": "481",
+    "AC": "22",
+    "Speed": "40 ft., burrow 40 ft., fly 80 ft.",
+    "avatarUrl": "/images/monsters/mm25-19.png"
+  },
+  {
+    "id": "Ancient Brass Dragon",
+    "HP": "332",
+    "AC": "20",
+    "Speed": "40 ft., burrow 40 ft., fly 80 ft.",
+    "avatarUrl": "/images/monsters/mm25-20.png"
+  },
+  {
+    "id": "Ancient Bronze Dragon",
+    "HP": "444",
+    "AC": "22",
+    "Speed": "40 ft., fly 80 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-21.png"
+  },
+  {
+    "id": "Ancient Copper Dragon",
+    "HP": "367",
+    "AC": "21",
+    "Speed": "40 ft., climb 40 ft., fly 80 ft.",
+    "avatarUrl": "/images/monsters/mm25-22.png"
+  },
+  {
+    "id": "Ancient Gold Dragon",
+    "HP": "546",
+    "AC": "22",
+    "Speed": "40 ft., fly 80 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-23.png"
+  },
+  {
+    "id": "Ancient Green Dragon",
+    "HP": "402",
+    "AC": "21",
+    "Speed": "40 ft., fly 80 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-24.png"
+  },
+  {
+    "id": "Ancient Red Dragon",
+    "HP": "507",
+    "AC": "22",
+    "Speed": "40 ft., climb 40 ft., fly 80 ft.",
+    "avatarUrl": "/images/monsters/mm25-25.png"
+  },
+  {
+    "id": "Ancient Silver Dragon",
+    "HP": "468",
+    "AC": "22",
+    "Speed": "40 ft., fly 80 ft.",
+    "avatarUrl": "/images/monsters/mm25-26.png"
+  },
+  {
+    "id": "Ancient White Dragon",
+    "HP": "333",
+    "AC": "20",
+    "Speed": "40 ft., burrow 40 ft., fly 80 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-27.png"
+  },
+  {
+    "id": "Animal Lord",
+    "HP": "323",
+    "AC": "19",
+    "Speed": "60 ft., fly 60 ft. ((hover)), swim 60 ft., canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-28.png"
+  },
+  {
+    "id": "Animated Armor",
+    "HP": "33",
+    "AC": "18",
+    "Speed": "25 ft.",
+    "avatarUrl": "/images/monsters/mm25-29.png"
+  },
+  {
+    "id": "Animated Broom",
+    "HP": "14",
+    "AC": "15",
+    "Speed": "5 ft., fly 50 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-30.png"
+  },
+  {
+    "id": "Animated Flying Sword",
+    "HP": "14",
+    "AC": "17",
+    "Speed": "5 ft., fly 50 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-31.png"
+  },
+  {
+    "id": "Animated Rug of Smothering",
+    "HP": "27",
+    "AC": "12",
+    "Speed": "10 ft.",
+    "avatarUrl": "/images/monsters/mm25-32.png"
+  },
+  {
+    "id": "Ankheg",
+    "HP": "45",
+    "AC": "14",
+    "Speed": "30 ft., burrow 10 ft.",
+    "avatarUrl": "/images/monsters/mm25-33.png"
+  },
+  {
+    "id": "Ankylosaurus",
+    "HP": "68",
+    "AC": "15",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-34.png"
+  },
+  {
+    "id": "Ape",
+    "HP": "19",
+    "AC": "12",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-35.png"
+  },
+  {
+    "id": "Arcanaloth",
+    "HP": "175",
+    "AC": "18",
+    "Speed": "30 ft., fly 30 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-36.png"
+  },
+  {
+    "id": "Arch-hag",
+    "HP": "333",
+    "AC": "20",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-37.png"
+  },
+  {
+    "id": "Archelon",
+    "HP": "90",
+    "AC": "17",
+    "Speed": "20 ft., swim 80 ft.",
+    "avatarUrl": "/images/monsters/mm25-38.png"
+  },
+  {
+    "id": "Archmage",
+    "HP": "170",
+    "AC": "17",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-39.png"
+  },
+  {
+    "id": "Archpriest",
+    "HP": "240",
+    "AC": "16",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-40.png"
+  },
+  {
+    "id": "Assassin",
+    "HP": "97",
+    "AC": "16",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-41.png"
+  },
+  {
+    "id": "Awakened Shrub",
+    "HP": "10",
+    "AC": "9",
+    "Speed": "20 ft.",
+    "avatarUrl": "/images/monsters/mm25-42.png"
+  },
+  {
+    "id": "Awakened Tree",
+    "HP": "59",
+    "AC": "13",
+    "Speed": "20 ft.",
+    "avatarUrl": "/images/monsters/mm25-43.png"
+  },
+  {
+    "id": "Axe Beak",
+    "HP": "19",
+    "AC": "11",
+    "Speed": "50 ft.",
+    "avatarUrl": "/images/monsters/mm25-44.png"
+  },
+  {
+    "id": "Azer Pyromancer",
+    "HP": "97",
+    "AC": "18",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-45.png"
+  },
+  {
+    "id": "Azer Sentinel",
+    "HP": "39",
+    "AC": "17",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-46.png"
+  },
+  {
+    "id": "Baboon",
+    "HP": "3",
+    "AC": "12",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-47.png"
+  },
+  {
+    "id": "Badger",
+    "HP": "5",
+    "AC": "11",
+    "Speed": "20 ft., burrow 5 ft.",
+    "avatarUrl": "/images/monsters/mm25-48.png"
+  },
+  {
+    "id": "Balor",
+    "HP": "287",
+    "AC": "19",
+    "Speed": "40 ft., fly 80 ft.",
+    "avatarUrl": "/images/monsters/mm25-49.png"
+  },
+  {
+    "id": "Bandit",
+    "HP": "11",
+    "AC": "12",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-50.png"
+  },
+  {
+    "id": "Bandit Captain",
+    "HP": "52",
+    "AC": "15",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-51.png"
+  },
+  {
+    "id": "Bandit Crime Lord",
+    "HP": "169",
+    "AC": "17",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-52.png"
+  },
+  {
+    "id": "Bandit Deceiver",
+    "HP": "130",
+    "AC": "16",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-53.png"
+  },
+  {
+    "id": "Banshee",
+    "HP": "54",
+    "AC": "12",
+    "Speed": "5 ft., fly 40 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-54.png"
+  },
+  {
+    "id": "Barbed Devil",
+    "HP": "110",
+    "AC": "15",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-55.png"
+  },
+  {
+    "id": "Barlgura",
+    "HP": "85",
+    "AC": "15",
+    "Speed": "40 ft., climb 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-56.png"
+  },
+  {
+    "id": "Basilisk",
+    "HP": "52",
+    "AC": "15",
+    "Speed": "20 ft.",
+    "avatarUrl": "/images/monsters/mm25-57.png"
+  },
+  {
+    "id": "Bat",
+    "HP": "1",
+    "AC": "12",
+    "Speed": "5 ft., fly 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-58.png"
+  },
+  {
+    "id": "Bearded Devil",
+    "HP": "58",
+    "AC": "13",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-59.png"
+  },
+  {
+    "id": "Behir",
+    "HP": "168",
+    "AC": "17",
+    "Speed": "50 ft., climb 50 ft.",
+    "avatarUrl": "/images/monsters/mm25-60.png"
+  },
+  {
+    "id": "Beholder",
+    "HP": "190",
+    "AC": "18",
+    "Speed": "5 ft., fly 40 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-61.png"
+  },
+  {
+    "id": "Beholder Zombie",
+    "HP": "93",
+    "AC": "15",
+    "Speed": "5 ft., fly 20 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-62.png"
+  },
+  {
+    "id": "Berserker",
+    "HP": "67",
+    "AC": "13",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-63.png"
+  },
+  {
+    "id": "Berserker Commander",
+    "HP": "136",
+    "AC": "16",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-64.png"
+  },
+  {
+    "id": "Black Bear",
+    "HP": "19",
+    "AC": "11",
+    "Speed": "30 ft., climb 30 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-65.png"
+  },
+  {
+    "id": "Black Dragon Wyrmling",
+    "HP": "33",
+    "AC": "17",
+    "Speed": "30 ft., fly 60 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-66.png"
+  },
+  {
+    "id": "Black Pudding",
+    "HP": "68",
+    "AC": "7",
+    "Speed": "20 ft., climb 20 ft.",
+    "avatarUrl": "/images/monsters/mm25-67.png"
+  },
+  {
+    "id": "Blink Dog",
+    "HP": "22",
+    "AC": "13",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-68.png"
+  },
+  {
+    "id": "Blob of Annihilation",
+    "HP": "448",
+    "AC": "18",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-69.png"
+  },
+  {
+    "id": "Blood Hawk",
+    "HP": "7",
+    "AC": "12",
+    "Speed": "10 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-70.png"
+  },
+  {
+    "id": "Blue Dragon Wyrmling",
+    "HP": "65",
+    "AC": "17",
+    "Speed": "30 ft., burrow 15 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-71.png"
+  },
+  {
+    "id": "Blue Slaad",
+    "HP": "133",
+    "AC": "15",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-72.png"
+  },
+  {
+    "id": "Boar",
+    "HP": "13",
+    "AC": "11",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-73.png"
+  },
+  {
+    "id": "Bone Devil",
+    "HP": "161",
+    "AC": "16",
+    "Speed": "40 ft., fly 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-74.png"
+  },
+  {
+    "id": "Bone Naga",
+    "HP": "65",
+    "AC": "15",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-75.png"
+  },
+  {
+    "id": "Brass Dragon Wyrmling",
+    "HP": "22",
+    "AC": "15",
+    "Speed": "30 ft., burrow 15 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-76.png"
+  },
+  {
+    "id": "Brazen Gorgon",
+    "HP": "161",
+    "AC": "19",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-77.png"
+  },
+  {
+    "id": "Bronze Dragon Wyrmling",
+    "HP": "39",
+    "AC": "15",
+    "Speed": "30 ft., fly 60 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-78.png"
+  },
+  {
+    "id": "Brown Bear",
+    "HP": "22",
+    "AC": "11",
+    "Speed": "40 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-79.png"
+  },
+  {
+    "id": "Bugbear Stalker",
+    "HP": "65",
+    "AC": "15",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-80.png"
+  },
+  {
+    "id": "Bugbear Warrior",
+    "HP": "33",
+    "AC": "14",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-81.png"
+  },
+  {
+    "id": "Bulette",
+    "HP": "94",
+    "AC": "17",
+    "Speed": "40 ft., burrow 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-82.png"
+  },
+  {
+    "id": "Bulette Pup",
+    "HP": "45",
+    "AC": "16",
+    "Speed": "30 ft., burrow 20 ft.",
+    "avatarUrl": "/images/monsters/mm25-83.png"
+  },
+  {
+    "id": "Bullywug Bog Sage",
+    "HP": "52",
+    "AC": "16",
+    "Speed": "30 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-84.png"
+  },
+  {
+    "id": "Bullywug Warrior",
+    "HP": "11",
+    "AC": "15",
+    "Speed": "30 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-85.png"
+  },
+  {
+    "id": "Cambion",
+    "HP": "105",
+    "AC": "19",
+    "Speed": "30 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-86.png"
+  },
+  {
+    "id": "Camel",
+    "HP": "17",
+    "AC": "10",
+    "Speed": "50 ft.",
+    "avatarUrl": "/images/monsters/mm25-87.png"
+  },
+  {
+    "id": "Carrion Crawler",
+    "HP": "51",
+    "AC": "13",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-88.png"
+  },
+  {
+    "id": "Cat",
+    "HP": "2",
+    "AC": "12",
+    "Speed": "40 ft., climb 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-89.png"
+  },
+  {
+    "id": "Centaur Trooper",
+    "HP": "45",
+    "AC": "16",
+    "Speed": "50 ft.",
+    "avatarUrl": "/images/monsters/mm25-90.png"
+  },
+  {
+    "id": "Centaur Warden",
+    "HP": "105",
+    "AC": "16",
+    "Speed": "50 ft.",
+    "avatarUrl": "/images/monsters/mm25-91.png"
+  },
+  {
+    "id": "Chain Devil",
+    "HP": "85",
+    "AC": "15",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-92.png"
+  },
+  {
+    "id": "Chasme",
+    "HP": "78",
+    "AC": "15",
+    "Speed": "20 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-93.png"
+  },
+  {
+    "id": "Chimera",
+    "HP": "114",
+    "AC": "14",
+    "Speed": "30 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-94.png"
+  },
+  {
+    "id": "Chuul",
+    "HP": "76",
+    "AC": "16",
+    "Speed": "30 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-95.png"
+  },
+  {
+    "id": "Clay Golem",
+    "HP": "123",
+    "AC": "14",
+    "Speed": "20 ft.",
+    "avatarUrl": "/images/monsters/mm25-96.png"
+  },
+  {
+    "id": "Cloaker",
+    "HP": "91",
+    "AC": "14",
+    "Speed": "10 ft., fly 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-97.png"
+  },
+  {
+    "id": "Cloud Giant",
+    "HP": "200",
+    "AC": "14",
+    "Speed": "40 ft., fly 20 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-98.png"
+  },
+  {
+    "id": "Cockatrice",
+    "HP": "22",
+    "AC": "11",
+    "Speed": "20 ft., fly 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-99.png"
+  },
+  {
+    "id": "Cockatrice Regent",
+    "HP": "136",
+    "AC": "15",
+    "Speed": "30 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-100.png"
+  },
+  {
+    "id": "Colossus",
+    "HP": "553",
+    "AC": "23",
+    "Speed": "60 ft.",
+    "avatarUrl": "/images/monsters/mm25-101.png"
+  },
+  {
+    "id": "Commoner",
+    "HP": "4",
+    "AC": "10",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-102.png"
+  },
+  {
+    "id": "Constrictor Snake",
+    "HP": "13",
+    "AC": "13",
+    "Speed": "30 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-103.png"
+  },
+  {
+    "id": "Copper Dragon Wyrmling",
+    "HP": "22",
+    "AC": "16",
+    "Speed": "30 ft., climb 30 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-104.png"
+  },
+  {
+    "id": "Couatl",
+    "HP": "60",
+    "AC": "19",
+    "Speed": "30 ft., fly 90 ft.",
+    "avatarUrl": "/images/monsters/mm25-105.png"
+  },
+  {
+    "id": "Crab",
+    "HP": "3",
+    "AC": "11",
+    "Speed": "20 ft., swim 20 ft.",
+    "avatarUrl": "/images/monsters/mm25-106.png"
+  },
+  {
+    "id": "Crawling Claw",
+    "HP": "2",
+    "AC": "12",
+    "Speed": "20 ft., climb 20 ft.",
+    "avatarUrl": "/images/monsters/mm25-107.png"
+  },
+  {
+    "id": "Crocodile",
+    "HP": "13",
+    "AC": "12",
+    "Speed": "20 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-108.png"
+  },
+  {
+    "id": "Cultist",
+    "HP": "9",
+    "AC": "12",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-109.png"
+  },
+  {
+    "id": "Cultist Fanatic",
+    "HP": "44",
+    "AC": "13",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-110.png"
+  },
+  {
+    "id": "Cultist Hierophant",
+    "HP": "144",
+    "AC": "16",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-111.png"
+  },
+  {
+    "id": "Cyclops Oracle",
+    "HP": "207",
+    "AC": "16",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-112.png"
+  },
+  {
+    "id": "Cyclops Sentry",
+    "HP": "138",
+    "AC": "14",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-113.png"
+  },
+  {
+    "id": "Dao",
+    "HP": "200",
+    "AC": "18",
+    "Speed": "30 ft., burrow 30 ft., fly 30 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-114.png"
+  },
+  {
+    "id": "Darkmantle",
+    "HP": "22",
+    "AC": "11",
+    "Speed": "10 ft., fly 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-115.png"
+  },
+  {
+    "id": "Death Cultist",
+    "HP": "127",
+    "AC": "17",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-116.png"
+  },
+  {
+    "id": "Death Dog",
+    "HP": "39",
+    "AC": "12",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-117.png"
+  },
+  {
+    "id": "Death Knight",
+    "HP": "199",
+    "AC": "20",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-118.png"
+  },
+  {
+    "id": "Death Knight Aspirant",
+    "HP": "178",
+    "AC": "20",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-119.png"
+  },
+  {
+    "id": "Death Slaad",
+    "HP": "178",
+    "AC": "18",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-120.png"
+  },
+  {
+    "id": "Death Tyrant",
+    "HP": "195",
+    "AC": "19",
+    "Speed": "5 ft., fly 40 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-121.png"
+  },
+  {
+    "id": "Deer",
+    "HP": "4",
+    "AC": "13",
+    "Speed": "50 ft.",
+    "avatarUrl": "/images/monsters/mm25-122.png"
+  },
+  {
+    "id": "Demilich",
+    "HP": "180",
+    "AC": "20",
+    "Speed": "5 ft., fly 30 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-123.png"
+  },
+  {
+    "id": "Deva",
+    "HP": "229",
+    "AC": "17",
+    "Speed": "30 ft., fly 90 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-124.png"
+  },
+  {
+    "id": "Dire Wolf",
+    "HP": "22",
+    "AC": "14",
+    "Speed": "50 ft.",
+    "avatarUrl": "/images/monsters/mm25-125.png"
+  },
+  {
+    "id": "Dire Worg",
+    "HP": "147",
+    "AC": "16",
+    "Speed": "50 ft.",
+    "avatarUrl": "/images/monsters/mm25-126.png"
+  },
+  {
+    "id": "Displacer Beast",
+    "HP": "76",
+    "AC": "13",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-127.png"
+  },
+  {
+    "id": "Djinni",
+    "HP": "218",
+    "AC": "17",
+    "Speed": "30 ft., fly 90 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-128.png"
+  },
+  {
+    "id": "Doppelganger",
+    "HP": "52",
+    "AC": "14",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-129.png"
+  },
+  {
+    "id": "Dracolich",
+    "HP": "225",
+    "AC": "20",
+    "Speed": "40 ft., burrow 30 ft., fly 80 ft.",
+    "avatarUrl": "/images/monsters/mm25-130.png"
+  },
+  {
+    "id": "Draft Horse",
+    "HP": "15",
+    "AC": "10",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-131.png"
+  },
+  {
+    "id": "Dragon Turtle",
+    "HP": "356",
+    "AC": "20",
+    "Speed": "20 ft., swim 50 ft.",
+    "avatarUrl": "/images/monsters/mm25-132.png"
+  },
+  {
+    "id": "Dretch",
+    "HP": "18",
+    "AC": "11",
+    "Speed": "20 ft.",
+    "avatarUrl": "/images/monsters/mm25-133.png"
+  },
+  {
+    "id": "Drider",
+    "HP": "123",
+    "AC": "19",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-134.png"
+  },
+  {
+    "id": "Druid",
+    "HP": "44",
+    "AC": "13",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-135.png"
+  },
+  {
+    "id": "Dryad",
+    "HP": "22",
+    "AC": "16",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-136.png"
+  },
+  {
+    "id": "Dust Mephit",
+    "HP": "17",
+    "AC": "12",
+    "Speed": "30 ft., fly 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-137.png"
+  },
+  {
+    "id": "Eagle",
+    "HP": "4",
+    "AC": "12",
+    "Speed": "10 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-138.png"
+  },
+  {
+    "id": "Earth Elemental",
+    "HP": "147",
+    "AC": "17",
+    "Speed": "30 ft., burrow 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-139.png"
+  },
+  {
+    "id": "Efreeti",
+    "HP": "212",
+    "AC": "17",
+    "Speed": "40 ft., fly 60 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-140.png"
+  },
+  {
+    "id": "Elemental Cataclysm",
+    "HP": "370",
+    "AC": "20",
+    "Speed": "60 ft., burrow 60 ft., fly 80 ft. ((hover)), swim 80 ft., canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-141.png"
+  },
+  {
+    "id": "Elemental Cultist",
+    "HP": "135",
+    "AC": "16",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-142.png"
+  },
+  {
+    "id": "Elephant",
+    "HP": "76",
+    "AC": "12",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-143.png"
+  },
+  {
+    "id": "Elk",
+    "HP": "11",
+    "AC": "10",
+    "Speed": "50 ft.",
+    "avatarUrl": "/images/monsters/mm25-144.png"
+  },
+  {
+    "id": "Empyrean",
+    "HP": "346",
+    "AC": "22",
+    "Speed": "50 ft., fly 50 ft. ((hover)), swim 50 ft., canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-145.png"
+  },
+  {
+    "id": "Empyrean Iota",
+    "HP": "22",
+    "AC": "13",
+    "Speed": "5 ft., fly 30 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-146.png"
+  },
+  {
+    "id": "Erinyes",
+    "HP": "178",
+    "AC": "18",
+    "Speed": "30 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-147.png"
+  },
+  {
+    "id": "Ettercap",
+    "HP": "44",
+    "AC": "13",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-148.png"
+  },
+  {
+    "id": "Ettin",
+    "HP": "85",
+    "AC": "12",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-149.png"
+  },
+  {
+    "id": "Faerie Dragon Adult",
+    "HP": "35",
+    "AC": "15",
+    "Speed": "10 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-150.png"
+  },
+  {
+    "id": "Faerie Dragon Youth",
+    "HP": "21",
+    "AC": "13",
+    "Speed": "10 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-151.png"
+  },
+  {
+    "id": "Fiend Cultist",
+    "HP": "127",
+    "AC": "16",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-152.png"
+  },
+  {
+    "id": "Fire Elemental",
+    "HP": "93",
+    "AC": "13",
+    "Speed": "50 ft.",
+    "avatarUrl": "/images/monsters/mm25-153.png"
+  },
+  {
+    "id": "Fire Giant",
+    "HP": "162",
+    "AC": "18",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-154.png"
+  },
+  {
+    "id": "Flameskull",
+    "HP": "40",
+    "AC": "13",
+    "Speed": "5 ft., fly 40 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-155.png"
+  },
+  {
+    "id": "Flaming Skeleton",
+    "HP": "65",
+    "AC": "15",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-156.png"
+  },
+  {
+    "id": "Flesh Golem",
+    "HP": "127",
+    "AC": "9",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-157.png"
+  },
+  {
+    "id": "Flumph",
+    "HP": "7",
+    "AC": "12",
+    "Speed": "5 ft., fly 30 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-158.png"
+  },
+  {
+    "id": "Flying Snake",
+    "HP": "5",
+    "AC": "14",
+    "Speed": "30 ft., fly 60 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-159.png"
+  },
+  {
+    "id": "Fomorian",
+    "HP": "172",
+    "AC": "14",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-160.png"
+  },
+  {
+    "id": "Frog",
+    "HP": "1",
+    "AC": "11",
+    "Speed": "20 ft., swim 20 ft.",
+    "avatarUrl": "/images/monsters/mm25-161.png"
+  },
+  {
+    "id": "Frost Giant",
+    "HP": "149",
+    "AC": "15",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-162.png"
+  },
+  {
+    "id": "Galeb Duhr",
+    "HP": "123",
+    "AC": "16",
+    "Speed": "walk 15 ft. ((30 ft. when rolling, 60 ft. rolling downhill))",
+    "avatarUrl": "/images/monsters/mm25-163.png"
+  },
+  {
+    "id": "Gargoyle",
+    "HP": "67",
+    "AC": "15",
+    "Speed": "30 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-164.png"
+  },
+  {
+    "id": "Gas Spore Fungus",
+    "HP": "13",
+    "AC": "8",
+    "Speed": "5 ft., fly 10 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-165.png"
+  },
+  {
+    "id": "Gelatinous Cube",
+    "HP": "63",
+    "AC": "6",
+    "Speed": "15 ft.",
+    "avatarUrl": "/images/monsters/mm25-166.png"
+  },
+  {
+    "id": "Ghast",
+    "HP": "36",
+    "AC": "13",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-167.png"
+  },
+  {
+    "id": "Ghast Gravecaller",
+    "HP": "97",
+    "AC": "16",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-168.png"
+  },
+  {
+    "id": "Ghost",
+    "HP": "45",
+    "AC": "11",
+    "Speed": "5 ft., fly 40 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-169.png"
+  },
+  {
+    "id": "Ghoul",
+    "HP": "22",
+    "AC": "12",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-170.png"
+  },
+  {
+    "id": "Giant Ape",
+    "HP": "168",
+    "AC": "12",
+    "Speed": "40 ft., climb 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-171.png"
+  },
+  {
+    "id": "Giant Axe Beak",
+    "HP": "84",
+    "AC": "15",
+    "Speed": "50 ft.",
+    "avatarUrl": "/images/monsters/mm25-172.png"
+  },
+  {
+    "id": "Giant Badger",
+    "HP": "15",
+    "AC": "13",
+    "Speed": "30 ft., burrow 10 ft.",
+    "avatarUrl": "/images/monsters/mm25-173.png"
+  },
+  {
+    "id": "Giant Bat",
+    "HP": "22",
+    "AC": "13",
+    "Speed": "10 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-174.png"
+  },
+  {
+    "id": "Giant Boar",
+    "HP": "42",
+    "AC": "13",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-175.png"
+  },
+  {
+    "id": "Giant Centipede",
+    "HP": "9",
+    "AC": "14",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-176.png"
+  },
+  {
+    "id": "Giant Constrictor Snake",
+    "HP": "60",
+    "AC": "12",
+    "Speed": "30 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-177.png"
+  },
+  {
+    "id": "Giant Crab",
+    "HP": "13",
+    "AC": "15",
+    "Speed": "30 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-178.png"
+  },
+  {
+    "id": "Giant Crocodile",
+    "HP": "85",
+    "AC": "14",
+    "Speed": "30 ft., swim 50 ft.",
+    "avatarUrl": "/images/monsters/mm25-179.png"
+  },
+  {
+    "id": "Giant Eagle",
+    "HP": "26",
+    "AC": "13",
+    "Speed": "10 ft., fly 80 ft.",
+    "avatarUrl": "/images/monsters/mm25-180.png"
+  },
+  {
+    "id": "Giant Elk",
+    "HP": "42",
+    "AC": "14",
+    "Speed": "60 ft.",
+    "avatarUrl": "/images/monsters/mm25-181.png"
+  },
+  {
+    "id": "Giant Fire Beetle",
+    "HP": "4",
+    "AC": "13",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-182.png"
+  },
+  {
+    "id": "Giant Frog",
+    "HP": "18",
+    "AC": "11",
+    "Speed": "30 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-183.png"
+  },
+  {
+    "id": "Giant Goat",
+    "HP": "19",
+    "AC": "11",
+    "Speed": "40 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-184.png"
+  },
+  {
+    "id": "Giant Hyena",
+    "HP": "45",
+    "AC": "12",
+    "Speed": "50 ft.",
+    "avatarUrl": "/images/monsters/mm25-185.png"
+  },
+  {
+    "id": "Giant Lizard",
+    "HP": "19",
+    "AC": "12",
+    "Speed": "40 ft., climb 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-186.png"
+  },
+  {
+    "id": "Giant Octopus",
+    "HP": "45",
+    "AC": "11",
+    "Speed": "10 ft., swim 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-187.png"
+  },
+  {
+    "id": "Giant Owl",
+    "HP": "19",
+    "AC": "12",
+    "Speed": "5 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-188.png"
+  },
+  {
+    "id": "Giant Rat",
+    "HP": "7",
+    "AC": "13",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-189.png"
+  },
+  {
+    "id": "Giant Scorpion",
+    "HP": "52",
+    "AC": "15",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-190.png"
+  },
+  {
+    "id": "Giant Seahorse",
+    "HP": "16",
+    "AC": "14",
+    "Speed": "5 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-191.png"
+  },
+  {
+    "id": "Giant Shark",
+    "HP": "92",
+    "AC": "13",
+    "Speed": "5 ft., swim 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-192.png"
+  },
+  {
+    "id": "Giant Spider",
+    "HP": "26",
+    "AC": "14",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-193.png"
+  },
+  {
+    "id": "Giant Squid",
+    "HP": "120",
+    "AC": "12",
+    "Speed": "5 ft., swim 80 ft.",
+    "avatarUrl": "/images/monsters/mm25-194.png"
+  },
+  {
+    "id": "Giant Toad",
+    "HP": "39",
+    "AC": "11",
+    "Speed": "30 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-195.png"
+  },
+  {
+    "id": "Giant Venomous Snake",
+    "HP": "11",
+    "AC": "14",
+    "Speed": "40 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-196.png"
+  },
+  {
+    "id": "Giant Vulture",
+    "HP": "25",
+    "AC": "10",
+    "Speed": "10 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-197.png"
+  },
+  {
+    "id": "Giant Wasp",
+    "HP": "22",
+    "AC": "13",
+    "Speed": "10 ft., fly 50 ft.",
+    "avatarUrl": "/images/monsters/mm25-198.png"
+  },
+  {
+    "id": "Giant Weasel",
+    "HP": "9",
+    "AC": "13",
+    "Speed": "40 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-199.png"
+  },
+  {
+    "id": "Giant Wolf Spider",
+    "HP": "11",
+    "AC": "13",
+    "Speed": "40 ft., climb 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-200.png"
+  },
+  {
+    "id": "Gibbering Mouther",
+    "HP": "52",
+    "AC": "9",
+    "Speed": "20 ft., swim 20 ft.",
+    "avatarUrl": "/images/monsters/mm25-201.png"
+  },
+  {
+    "id": "Githyanki Dracomancer",
+    "HP": "255",
+    "AC": "18",
+    "Speed": "30 ft., fly 30 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-202.png"
+  },
+  {
+    "id": "Githyanki Knight",
+    "HP": "117",
+    "AC": "18",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-203.png"
+  },
+  {
+    "id": "Githyanki Warrior",
+    "HP": "49",
+    "AC": "17",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-204.png"
+  },
+  {
+    "id": "Githzerai Monk",
+    "HP": "38",
+    "AC": "14",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-205.png"
+  },
+  {
+    "id": "Githzerai Psion",
+    "HP": "169",
+    "AC": "18",
+    "Speed": "40 ft., fly 40 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-206.png"
+  },
+  {
+    "id": "Githzerai Zerth",
+    "HP": "84",
+    "AC": "17",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-207.png"
+  },
+  {
+    "id": "Glabrezu",
+    "HP": "189",
+    "AC": "17",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-208.png"
+  },
+  {
+    "id": "Gladiator",
+    "HP": "112",
+    "AC": "16",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-209.png"
+  },
+  {
+    "id": "Gnoll Demoniac",
+    "HP": "135",
+    "AC": "16",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-210.png"
+  },
+  {
+    "id": "Gnoll Fang of Yeenoghu",
+    "HP": "71",
+    "AC": "14",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-211.png"
+  },
+  {
+    "id": "Gnoll Pack Lord",
+    "HP": "49",
+    "AC": "15",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-212.png"
+  },
+  {
+    "id": "Gnoll Warrior",
+    "HP": "27",
+    "AC": "15",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-213.png"
+  },
+  {
+    "id": "Goat",
+    "HP": "4",
+    "AC": "10",
+    "Speed": "40 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-214.png"
+  },
+  {
+    "id": "Goblin Boss",
+    "HP": "21",
+    "AC": "17",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-215.png"
+  },
+  {
+    "id": "Goblin Hexer",
+    "HP": "45",
+    "AC": "13",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-216.png"
+  },
+  {
+    "id": "Goblin Minion",
+    "HP": "7",
+    "AC": "12",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-217.png"
+  },
+  {
+    "id": "Goblin Warrior",
+    "HP": "10",
+    "AC": "15",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-218.png"
+  },
+  {
+    "id": "Gold Dragon Wyrmling",
+    "HP": "60",
+    "AC": "17",
+    "Speed": "30 ft., fly 60 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-219.png"
+  },
+  {
+    "id": "Gorgon",
+    "HP": "114",
+    "AC": "19",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-220.png"
+  },
+  {
+    "id": "Goristro",
+    "HP": "310",
+    "AC": "19",
+    "Speed": "50 ft.",
+    "avatarUrl": "/images/monsters/mm25-221.png"
+  },
+  {
+    "id": "Graveyard Revenant",
+    "HP": "161",
+    "AC": "14",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-222.png"
+  },
+  {
+    "id": "Gray Ooze",
+    "HP": "22",
+    "AC": "9",
+    "Speed": "10 ft., climb 10 ft.",
+    "avatarUrl": "/images/monsters/mm25-223.png"
+  },
+  {
+    "id": "Gray Slaad",
+    "HP": "150",
+    "AC": "18",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-224.png"
+  },
+  {
+    "id": "Green Dragon Wyrmling",
+    "HP": "38",
+    "AC": "17",
+    "Speed": "30 ft., fly 60 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-225.png"
+  },
+  {
+    "id": "Green Hag",
+    "HP": "82",
+    "AC": "17",
+    "Speed": "30 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-226.png"
+  },
+  {
+    "id": "Green Slaad",
+    "HP": "144",
+    "AC": "16",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-227.png"
+  },
+  {
+    "id": "Grell",
+    "HP": "55",
+    "AC": "12",
+    "Speed": "10 ft., fly 30 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-228.png"
+  },
+  {
+    "id": "Grick",
+    "HP": "54",
+    "AC": "14",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-229.png"
+  },
+  {
+    "id": "Grick Ancient",
+    "HP": "135",
+    "AC": "18",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-230.png"
+  },
+  {
+    "id": "Griffon",
+    "HP": "59",
+    "AC": "12",
+    "Speed": "30 ft., fly 80 ft.",
+    "avatarUrl": "/images/monsters/mm25-231.png"
+  },
+  {
+    "id": "Grimlock",
+    "HP": "11",
+    "AC": "11",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-232.png"
+  },
+  {
+    "id": "Guard",
+    "HP": "11",
+    "AC": "16",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-233.png"
+  },
+  {
+    "id": "Guard Captain",
+    "HP": "75",
+    "AC": "18",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-234.png"
+  },
+  {
+    "id": "Guardian Naga",
+    "HP": "136",
+    "AC": "18",
+    "Speed": "40 ft., climb 40 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-235.png"
+  },
+  {
+    "id": "Gulthias Blight",
+    "HP": "264",
+    "AC": "20",
+    "Speed": "50 ft.",
+    "avatarUrl": "/images/monsters/mm25-236.png"
+  },
+  {
+    "id": "Half-Dragon",
+    "HP": "105",
+    "AC": "18",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-237.png"
+  },
+  {
+    "id": "Harpy",
+    "HP": "38",
+    "AC": "11",
+    "Speed": "20 ft., fly 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-238.png"
+  },
+  {
+    "id": "Haunting Revenant",
+    "HP": "203",
+    "AC": "20",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-239.png"
+  },
+  {
+    "id": "Hawk",
+    "HP": "1",
+    "AC": "13",
+    "Speed": "10 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-240.png"
+  },
+  {
+    "id": "Hell Hound",
+    "HP": "58",
+    "AC": "15",
+    "Speed": "50 ft.",
+    "avatarUrl": "/images/monsters/mm25-241.png"
+  },
+  {
+    "id": "Helmed Horror",
+    "HP": "67",
+    "AC": "20",
+    "Speed": "30 ft., fly 30 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-242.png"
+  },
+  {
+    "id": "Hezrou",
+    "HP": "157",
+    "AC": "18",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-243.png"
+  },
+  {
+    "id": "Hill Giant",
+    "HP": "105",
+    "AC": "13",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-244.png"
+  },
+  {
+    "id": "Hippogriff",
+    "HP": "26",
+    "AC": "11",
+    "Speed": "40 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-245.png"
+  },
+  {
+    "id": "Hippopotamus",
+    "HP": "82",
+    "AC": "14",
+    "Speed": "30 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-246.png"
+  },
+  {
+    "id": "Hobgoblin Captain",
+    "HP": "58",
+    "AC": "17",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-247.png"
+  },
+  {
+    "id": "Hobgoblin Warlord",
+    "HP": "112",
+    "AC": "20",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-248.png"
+  },
+  {
+    "id": "Hobgoblin Warrior",
+    "HP": "11",
+    "AC": "18",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-249.png"
+  },
+  {
+    "id": "Homunculus",
+    "HP": "4",
+    "AC": "13",
+    "Speed": "20 ft., fly 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-250.png"
+  },
+  {
+    "id": "Hook Horror",
+    "HP": "75",
+    "AC": "15",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-251.png"
+  },
+  {
+    "id": "Horned Devil",
+    "HP": "199",
+    "AC": "18",
+    "Speed": "30 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-252.png"
+  },
+  {
+    "id": "Hunter Shark",
+    "HP": "45",
+    "AC": "12",
+    "Speed": "5 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-253.png"
+  },
+  {
+    "id": "Hydra",
+    "HP": "184",
+    "AC": "15",
+    "Speed": "40 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-254.png"
+  },
+  {
+    "id": "Hyena",
+    "HP": "5",
+    "AC": "11",
+    "Speed": "50 ft.",
+    "avatarUrl": "/images/monsters/mm25-255.png"
+  },
+  {
+    "id": "Ice Devil",
+    "HP": "228",
+    "AC": "18",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-256.png"
+  },
+  {
+    "id": "Ice Mephit",
+    "HP": "21",
+    "AC": "11",
+    "Speed": "30 ft., fly 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-257.png"
+  },
+  {
+    "id": "Imp",
+    "HP": "21",
+    "AC": "13",
+    "Speed": "20 ft., fly 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-258.png"
+  },
+  {
+    "id": "Incubus",
+    "HP": "66",
+    "AC": "15",
+    "Speed": "30 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-259.png"
+  },
+  {
+    "id": "Intellect Devourer",
+    "HP": "28",
+    "AC": "12",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-260.png"
+  },
+  {
+    "id": "Invisible Stalker",
+    "HP": "97",
+    "AC": "14",
+    "Speed": "50 ft., fly 50 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-261.png"
+  },
+  {
+    "id": "Iron Golem",
+    "HP": "252",
+    "AC": "20",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-262.png"
+  },
+  {
+    "id": "Jackal",
+    "HP": "3",
+    "AC": "12",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-263.png"
+  },
+  {
+    "id": "Jackalwere",
+    "HP": "18",
+    "AC": "12",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-264.png"
+  },
+  {
+    "id": "Juvenile Shadow Dragon",
+    "HP": "45",
+    "AC": "15",
+    "Speed": "30 ft., climb 30 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-265.png"
+  },
+  {
+    "id": "Kenku",
+    "HP": "13",
+    "AC": "13",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-266.png"
+  },
+  {
+    "id": "Killer Whale",
+    "HP": "90",
+    "AC": "12",
+    "Speed": "5 ft., swim 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-267.png"
+  },
+  {
+    "id": "Knight",
+    "HP": "52",
+    "AC": "18",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-268.png"
+  },
+  {
+    "id": "Kobold Warrior",
+    "HP": "7",
+    "AC": "14",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-269.png"
+  },
+  {
+    "id": "Kraken",
+    "HP": "481",
+    "AC": "18",
+    "Speed": "30 ft., swim 120 ft.",
+    "avatarUrl": "/images/monsters/mm25-270.png"
+  },
+  {
+    "id": "Kuo-toa",
+    "HP": "18",
+    "AC": "13",
+    "Speed": "30 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-271.png"
+  },
+  {
+    "id": "Kuo-toa Archpriest",
+    "HP": "105",
+    "AC": "13",
+    "Speed": "30 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-272.png"
+  },
+  {
+    "id": "Kuo-toa Monitor",
+    "HP": "65",
+    "AC": "13",
+    "Speed": "30 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-273.png"
+  },
+  {
+    "id": "Kuo-toa Whip",
+    "HP": "45",
+    "AC": "11",
+    "Speed": "30 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-274.png"
+  },
+  {
+    "id": "Lacedon Ghoul",
+    "HP": "22",
+    "AC": "12",
+    "Speed": "30 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-275.png"
+  },
+  {
+    "id": "Lamia",
+    "HP": "97",
+    "AC": "13",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-276.png"
+  },
+  {
+    "id": "Larva",
+    "HP": "9",
+    "AC": "9",
+    "Speed": "20 ft.",
+    "avatarUrl": "/images/monsters/mm25-277.png"
+  },
+  {
+    "id": "Lemure",
+    "HP": "9",
+    "AC": "9",
+    "Speed": "20 ft.",
+    "avatarUrl": "/images/monsters/mm25-278.png"
+  },
+  {
+    "id": "Lich",
+    "HP": "315",
+    "AC": "20",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-279.png"
+  },
+  {
+    "id": "Lion",
+    "HP": "22",
+    "AC": "12",
+    "Speed": "50 ft.",
+    "avatarUrl": "/images/monsters/mm25-280.png"
+  },
+  {
+    "id": "Lizard",
+    "HP": "2",
+    "AC": "10",
+    "Speed": "20 ft., climb 20 ft.",
+    "avatarUrl": "/images/monsters/mm25-281.png"
+  },
+  {
+    "id": "Lizardfolk Geomancer",
+    "HP": "33",
+    "AC": "13",
+    "Speed": "30 ft., burrow 20 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-282.png"
+  },
+  {
+    "id": "Lizardfolk Sovereign",
+    "HP": "78",
+    "AC": "15",
+    "Speed": "30 ft., burrow 20 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-283.png"
+  },
+  {
+    "id": "Mage",
+    "HP": "81",
+    "AC": "15",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-284.png"
+  },
+  {
+    "id": "Mage Apprentice",
+    "HP": "49",
+    "AC": "15",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-285.png"
+  },
+  {
+    "id": "Magma Mephit",
+    "HP": "18",
+    "AC": "11",
+    "Speed": "30 ft., fly 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-286.png"
+  },
+  {
+    "id": "Magmin",
+    "HP": "13",
+    "AC": "14",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-287.png"
+  },
+  {
+    "id": "Mammoth",
+    "HP": "126",
+    "AC": "13",
+    "Speed": "50 ft.",
+    "avatarUrl": "/images/monsters/mm25-288.png"
+  },
+  {
+    "id": "Manes",
+    "HP": "9",
+    "AC": "9",
+    "Speed": "20 ft.",
+    "avatarUrl": "/images/monsters/mm25-289.png"
+  },
+  {
+    "id": "Manes Vaporspawn",
+    "HP": "19",
+    "AC": "13",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-290.png"
+  },
+  {
+    "id": "Manticore",
+    "HP": "68",
+    "AC": "14",
+    "Speed": "30 ft., fly 50 ft.",
+    "avatarUrl": "/images/monsters/mm25-291.png"
+  },
+  {
+    "id": "Marid",
+    "HP": "229",
+    "AC": "17",
+    "Speed": "30 ft., fly 60 ft., swim 90 ft.",
+    "avatarUrl": "/images/monsters/mm25-292.png"
+  },
+  {
+    "id": "Marilith",
+    "HP": "220",
+    "AC": "16",
+    "Speed": "40 ft., climb 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-293.png"
+  },
+  {
+    "id": "Mastiff",
+    "HP": "5",
+    "AC": "12",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-294.png"
+  },
+  {
+    "id": "Medusa",
+    "HP": "127",
+    "AC": "15",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-295.png"
+  },
+  {
+    "id": "Merfolk Skirmisher",
+    "HP": "11",
+    "AC": "11",
+    "Speed": "10 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-296.png"
+  },
+  {
+    "id": "Merfolk Wavebender",
+    "HP": "97",
+    "AC": "14",
+    "Speed": "10 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-297.png"
+  },
+  {
+    "id": "Merrow",
+    "HP": "45",
+    "AC": "13",
+    "Speed": "10 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-298.png"
+  },
+  {
+    "id": "Mezzoloth",
+    "HP": "75",
+    "AC": "18",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-299.png"
+  },
+  {
+    "id": "Mimic",
+    "HP": "58",
+    "AC": "12",
+    "Speed": "20 ft.",
+    "avatarUrl": "/images/monsters/mm25-300.png"
+  },
+  {
+    "id": "Mind Flayer",
+    "HP": "99",
+    "AC": "15",
+    "Speed": "30 ft., fly 15 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-301.png"
+  },
+  {
+    "id": "Mind Flayer Arcanist",
+    "HP": "143",
+    "AC": "16",
+    "Speed": "30 ft., fly 30 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-302.png"
+  },
+  {
+    "id": "Minotaur of Baphomet",
+    "HP": "85",
+    "AC": "14",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-303.png"
+  },
+  {
+    "id": "Minotaur Skeleton",
+    "HP": "45",
+    "AC": "12",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-304.png"
+  },
+  {
+    "id": "Modron Duodrone",
+    "HP": "11",
+    "AC": "15",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-305.png"
+  },
+  {
+    "id": "Modron Monodrone",
+    "HP": "5",
+    "AC": "15",
+    "Speed": "30 ft., fly 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-306.png"
+  },
+  {
+    "id": "Modron Pentadrone",
+    "HP": "32",
+    "AC": "16",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-307.png"
+  },
+  {
+    "id": "Modron Quadrone",
+    "HP": "22",
+    "AC": "16",
+    "Speed": "30 ft., fly 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-308.png"
+  },
+  {
+    "id": "Modron Tridrone",
+    "HP": "16",
+    "AC": "15",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-309.png"
+  },
+  {
+    "id": "Mud Mephit",
+    "HP": "13",
+    "AC": "11",
+    "Speed": "20 ft., fly 20 ft., swim 20 ft.",
+    "avatarUrl": "/images/monsters/mm25-310.png"
+  },
+  {
+    "id": "Mule",
+    "HP": "11",
+    "AC": "10",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-311.png"
+  },
+  {
+    "id": "Mummy",
+    "HP": "58",
+    "AC": "11",
+    "Speed": "20 ft.",
+    "avatarUrl": "/images/monsters/mm25-312.png"
+  },
+  {
+    "id": "Mummy Lord",
+    "HP": "187",
+    "AC": "17",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-313.png"
+  },
+  {
+    "id": "Myconid Adult",
+    "HP": "16",
+    "AC": "12",
+    "Speed": "20 ft.",
+    "avatarUrl": "/images/monsters/mm25-314.png"
+  },
+  {
+    "id": "Myconid Sovereign",
+    "HP": "45",
+    "AC": "13",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-315.png"
+  },
+  {
+    "id": "Myconid Spore Servant",
+    "HP": "37",
+    "AC": "13",
+    "Speed": "20 ft.",
+    "avatarUrl": "/images/monsters/mm25-316.png"
+  },
+  {
+    "id": "Myconid Sprout",
+    "HP": "3",
+    "AC": "10",
+    "Speed": "10 ft.",
+    "avatarUrl": "/images/monsters/mm25-317.png"
+  },
+  {
+    "id": "Nalfeshnee",
+    "HP": "184",
+    "AC": "18",
+    "Speed": "20 ft., fly 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-318.png"
+  },
+  {
+    "id": "Needle Blight",
+    "HP": "16",
+    "AC": "12",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-319.png"
+  },
+  {
+    "id": "Night Hag",
+    "HP": "112",
+    "AC": "17",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-320.png"
+  },
+  {
+    "id": "Nightmare",
+    "HP": "68",
+    "AC": "13",
+    "Speed": "60 ft., fly 90 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-321.png"
+  },
+  {
+    "id": "Noble",
+    "HP": "9",
+    "AC": "15",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-322.png"
+  },
+  {
+    "id": "Noble Prodigy",
+    "HP": "148",
+    "AC": "16",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-323.png"
+  },
+  {
+    "id": "Nothic",
+    "HP": "45",
+    "AC": "15",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-324.png"
+  },
+  {
+    "id": "Nycaloth",
+    "HP": "152",
+    "AC": "18",
+    "Speed": "40 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-325.png"
+  },
+  {
+    "id": "Ochre Jelly",
+    "HP": "52",
+    "AC": "8",
+    "Speed": "20 ft., climb 20 ft.",
+    "avatarUrl": "/images/monsters/mm25-326.png"
+  },
+  {
+    "id": "Octopus",
+    "HP": "3",
+    "AC": "12",
+    "Speed": "5 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-327.png"
+  },
+  {
+    "id": "Ogre",
+    "HP": "68",
+    "AC": "11",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-328.png"
+  },
+  {
+    "id": "Ogre Zombie",
+    "HP": "85",
+    "AC": "8",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-329.png"
+  },
+  {
+    "id": "Ogrillon Ogre",
+    "HP": "52",
+    "AC": "12",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-330.png"
+  },
+  {
+    "id": "Oni",
+    "HP": "119",
+    "AC": "17",
+    "Speed": "30 ft., fly 30 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-331.png"
+  },
+  {
+    "id": "Otyugh",
+    "HP": "104",
+    "AC": "14",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-332.png"
+  },
+  {
+    "id": "Owl",
+    "HP": "1",
+    "AC": "11",
+    "Speed": "5 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-333.png"
+  },
+  {
+    "id": "Owlbear",
+    "HP": "59",
+    "AC": "13",
+    "Speed": "40 ft., climb 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-334.png"
+  },
+  {
+    "id": "Panther",
+    "HP": "13",
+    "AC": "13",
+    "Speed": "50 ft., climb 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-335.png"
+  },
+  {
+    "id": "Pegasus",
+    "HP": "59",
+    "AC": "12",
+    "Speed": "60 ft., fly 90 ft.",
+    "avatarUrl": "/images/monsters/mm25-336.png"
+  },
+  {
+    "id": "Performer",
+    "HP": "27",
+    "AC": "13",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-337.png"
+  },
+  {
+    "id": "Performer Legend",
+    "HP": "162",
+    "AC": "20",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-338.png"
+  },
+  {
+    "id": "Performer Maestro",
+    "HP": "110",
+    "AC": "18",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-339.png"
+  },
+  {
+    "id": "Peryton",
+    "HP": "33",
+    "AC": "13",
+    "Speed": "20 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-340.png"
+  },
+  {
+    "id": "Phase Spider",
+    "HP": "45",
+    "AC": "14",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-341.png"
+  },
+  {
+    "id": "Piercer",
+    "HP": "22",
+    "AC": "15",
+    "Speed": "5 ft., climb 15 ft.",
+    "avatarUrl": "/images/monsters/mm25-342.png"
+  },
+  {
+    "id": "Piranha",
+    "HP": "1",
+    "AC": "13",
+    "Speed": "5 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-343.png"
+  },
+  {
+    "id": "Pirate",
+    "HP": "33",
+    "AC": "14",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-344.png"
+  },
+  {
+    "id": "Pirate Admiral",
+    "HP": "182",
+    "AC": "20",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-345.png"
+  },
+  {
+    "id": "Pirate Captain",
+    "HP": "84",
+    "AC": "17",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-346.png"
+  },
+  {
+    "id": "Pit Fiend",
+    "HP": "337",
+    "AC": "21",
+    "Speed": "30 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-347.png"
+  },
+  {
+    "id": "Pixie",
+    "HP": "9",
+    "AC": "15",
+    "Speed": "10 ft., fly 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-348.png"
+  },
+  {
+    "id": "Pixie Wonderbringer",
+    "HP": "60",
+    "AC": "15",
+    "Speed": "10 ft., fly 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-349.png"
+  },
+  {
+    "id": "Planetar",
+    "HP": "262",
+    "AC": "19",
+    "Speed": "40 ft., fly 120 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-350.png"
+  },
+  {
+    "id": "Plesiosaurus",
+    "HP": "68",
+    "AC": "13",
+    "Speed": "20 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-351.png"
+  },
+  {
+    "id": "Polar Bear",
+    "HP": "42",
+    "AC": "12",
+    "Speed": "40 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-352.png"
+  },
+  {
+    "id": "Poltergeist",
+    "HP": "22",
+    "AC": "12",
+    "Speed": "5 ft., fly 50 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-353.png"
+  },
+  {
+    "id": "Pony",
+    "HP": "11",
+    "AC": "10",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-354.png"
+  },
+  {
+    "id": "Priest",
+    "HP": "38",
+    "AC": "13",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-355.png"
+  },
+  {
+    "id": "Priest Acolyte",
+    "HP": "11",
+    "AC": "13",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-356.png"
+  },
+  {
+    "id": "Primeval Owlbear",
+    "HP": "126",
+    "AC": "16",
+    "Speed": "40 ft., climb 40 ft., fly 5 ft.",
+    "avatarUrl": "/images/monsters/mm25-357.png"
+  },
+  {
+    "id": "Pseudodragon",
+    "HP": "10",
+    "AC": "14",
+    "Speed": "15 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-358.png"
+  },
+  {
+    "id": "Psychic Gray Ooze",
+    "HP": "37",
+    "AC": "9",
+    "Speed": "10 ft., climb 10 ft.",
+    "avatarUrl": "/images/monsters/mm25-359.png"
+  },
+  {
+    "id": "Pteranodon",
+    "HP": "13",
+    "AC": "13",
+    "Speed": "10 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-360.png"
+  },
+  {
+    "id": "Purple Worm",
+    "HP": "247",
+    "AC": "18",
+    "Speed": "50 ft., burrow 50 ft.",
+    "avatarUrl": "/images/monsters/mm25-361.png"
+  },
+  {
+    "id": "Quaggoth",
+    "HP": "45",
+    "AC": "13",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-362.png"
+  },
+  {
+    "id": "Quaggoth Thonot",
+    "HP": "67",
+    "AC": "15",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-363.png"
+  },
+  {
+    "id": "Quasit",
+    "HP": "25",
+    "AC": "13",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-364.png"
+  },
+  {
+    "id": "Questing Knight",
+    "HP": "202",
+    "AC": "18",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-365.png"
+  },
+  {
+    "id": "Rakshasa",
+    "HP": "221",
+    "AC": "17",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-366.png"
+  },
+  {
+    "id": "Rat",
+    "HP": "1",
+    "AC": "10",
+    "Speed": "20 ft., climb 20 ft.",
+    "avatarUrl": "/images/monsters/mm25-367.png"
+  },
+  {
+    "id": "Raven",
+    "HP": "2",
+    "AC": "12",
+    "Speed": "10 ft., fly 50 ft.",
+    "avatarUrl": "/images/monsters/mm25-368.png"
+  },
+  {
+    "id": "Red Dragon Wyrmling",
+    "HP": "75",
+    "AC": "17",
+    "Speed": "30 ft., climb 30 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-369.png"
+  },
+  {
+    "id": "Red Slaad",
+    "HP": "93",
+    "AC": "14",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-370.png"
+  },
+  {
+    "id": "Reef Shark",
+    "HP": "22",
+    "AC": "12",
+    "Speed": "5 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-371.png"
+  },
+  {
+    "id": "Remorhaz",
+    "HP": "195",
+    "AC": "17",
+    "Speed": "40 ft., burrow 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-372.png"
+  },
+  {
+    "id": "Revenant",
+    "HP": "127",
+    "AC": "13",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-373.png"
+  },
+  {
+    "id": "Rhinoceros",
+    "HP": "45",
+    "AC": "13",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-374.png"
+  },
+  {
+    "id": "Riding Horse",
+    "HP": "13",
+    "AC": "11",
+    "Speed": "60 ft.",
+    "avatarUrl": "/images/monsters/mm25-375.png"
+  },
+  {
+    "id": "Roc",
+    "HP": "248",
+    "AC": "15",
+    "Speed": "20 ft., fly 120 ft.",
+    "avatarUrl": "/images/monsters/mm25-376.png"
+  },
+  {
+    "id": "Roper",
+    "HP": "93",
+    "AC": "20",
+    "Speed": "10 ft., climb 20 ft.",
+    "avatarUrl": "/images/monsters/mm25-377.png"
+  },
+  {
+    "id": "Rust Monster",
+    "HP": "33",
+    "AC": "14",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-378.png"
+  },
+  {
+    "id": "Saber-Toothed Tiger",
+    "HP": "52",
+    "AC": "13",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-379.png"
+  },
+  {
+    "id": "Sahuagin Baron",
+    "HP": "76",
+    "AC": "16",
+    "Speed": "30 ft., swim 50 ft.",
+    "avatarUrl": "/images/monsters/mm25-380.png"
+  },
+  {
+    "id": "Sahuagin Priest",
+    "HP": "38",
+    "AC": "12",
+    "Speed": "30 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-381.png"
+  },
+  {
+    "id": "Sahuagin Warrior",
+    "HP": "22",
+    "AC": "12",
+    "Speed": "30 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-382.png"
+  },
+  {
+    "id": "Salamander",
+    "HP": "90",
+    "AC": "15",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-383.png"
+  },
+  {
+    "id": "Salamander Fire Snake",
+    "HP": "27",
+    "AC": "14",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-384.png"
+  },
+  {
+    "id": "Salamander Inferno Master",
+    "HP": "256",
+    "AC": "18",
+    "Speed": "40 ft., climb 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-385.png"
+  },
+  {
+    "id": "Satyr",
+    "HP": "31",
+    "AC": "13",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-386.png"
+  },
+  {
+    "id": "Satyr Revelmaster",
+    "HP": "82",
+    "AC": "17",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-387.png"
+  },
+  {
+    "id": "Scarecrow",
+    "HP": "27",
+    "AC": "11",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-388.png"
+  },
+  {
+    "id": "Scorpion",
+    "HP": "1",
+    "AC": "11",
+    "Speed": "10 ft.",
+    "avatarUrl": "/images/monsters/mm25-389.png"
+  },
+  {
+    "id": "Scout",
+    "HP": "16",
+    "AC": "13",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-390.png"
+  },
+  {
+    "id": "Scout Captain",
+    "HP": "66",
+    "AC": "15",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-391.png"
+  },
+  {
+    "id": "Sea Hag",
+    "HP": "52",
+    "AC": "14",
+    "Speed": "30 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-392.png"
+  },
+  {
+    "id": "Seahorse",
+    "HP": "1",
+    "AC": "12",
+    "Speed": "5 ft., swim 20 ft.",
+    "avatarUrl": "/images/monsters/mm25-393.png"
+  },
+  {
+    "id": "Shadow",
+    "HP": "27",
+    "AC": "12",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-394.png"
+  },
+  {
+    "id": "Shadow Demon",
+    "HP": "66",
+    "AC": "14",
+    "Speed": "30 ft., fly 30 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-395.png"
+  },
+  {
+    "id": "Shadow Dragon",
+    "HP": "189",
+    "AC": "16",
+    "Speed": "40 ft., climb 40 ft., fly 80 ft.",
+    "avatarUrl": "/images/monsters/mm25-396.png"
+  },
+  {
+    "id": "Shambling Mound",
+    "HP": "110",
+    "AC": "15",
+    "Speed": "30 ft., swim 20 ft.",
+    "avatarUrl": "/images/monsters/mm25-397.png"
+  },
+  {
+    "id": "Shield Guardian",
+    "HP": "142",
+    "AC": "17",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-398.png"
+  },
+  {
+    "id": "Shrieker Fungus",
+    "HP": "13",
+    "AC": "5",
+    "Speed": "5 ft.",
+    "avatarUrl": "/images/monsters/mm25-399.png"
+  },
+  {
+    "id": "Silver Dragon Wyrmling",
+    "HP": "45",
+    "AC": "17",
+    "Speed": "30 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-400.png"
+  },
+  {
+    "id": "Skeleton",
+    "HP": "13",
+    "AC": "14",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-401.png"
+  },
+  {
+    "id": "Slaad Tadpole",
+    "HP": "7",
+    "AC": "12",
+    "Speed": "30 ft., burrow 10 ft.",
+    "avatarUrl": "/images/monsters/mm25-402.png"
+  },
+  {
+    "id": "Smoke Mephit",
+    "HP": "13",
+    "AC": "12",
+    "Speed": "30 ft., fly 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-403.png"
+  },
+  {
+    "id": "Solar",
+    "HP": "297",
+    "AC": "21",
+    "Speed": "50 ft., fly 150 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-404.png"
+  },
+  {
+    "id": "Spectator",
+    "HP": "45",
+    "AC": "14",
+    "Speed": "5 ft., fly 30 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-405.png"
+  },
+  {
+    "id": "Specter",
+    "HP": "22",
+    "AC": "12",
+    "Speed": "30 ft., fly 50 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-406.png"
+  },
+  {
+    "id": "Sphinx of Lore",
+    "HP": "170",
+    "AC": "17",
+    "Speed": "40 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-407.png"
+  },
+  {
+    "id": "Sphinx of Secrets",
+    "HP": "136",
+    "AC": "16",
+    "Speed": "40 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-408.png"
+  },
+  {
+    "id": "Sphinx of Valor",
+    "HP": "199",
+    "AC": "17",
+    "Speed": "40 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-409.png"
+  },
+  {
+    "id": "Sphinx of Wonder",
+    "HP": "24",
+    "AC": "13",
+    "Speed": "20 ft., fly 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-410.png"
+  },
+  {
+    "id": "Spider",
+    "HP": "1",
+    "AC": "12",
+    "Speed": "20 ft., climb 20 ft.",
+    "avatarUrl": "/images/monsters/mm25-411.png"
+  },
+  {
+    "id": "Spined Devil",
+    "HP": "45",
+    "AC": "13",
+    "Speed": "20 ft., fly 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-412.png"
+  },
+  {
+    "id": "Spirit Naga",
+    "HP": "135",
+    "AC": "17",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-413.png"
+  },
+  {
+    "id": "Sprite",
+    "HP": "10",
+    "AC": "15",
+    "Speed": "10 ft., fly 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-414.png"
+  },
+  {
+    "id": "Spy",
+    "HP": "27",
+    "AC": "12",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-415.png"
+  },
+  {
+    "id": "Spy Master",
+    "HP": "137",
+    "AC": "19",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-416.png"
+  },
+  {
+    "id": "Steam Mephit",
+    "HP": "17",
+    "AC": "10",
+    "Speed": "30 ft., fly 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-417.png"
+  },
+  {
+    "id": "Stirge",
+    "HP": "5",
+    "AC": "13",
+    "Speed": "10 ft., fly 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-418.png"
+  },
+  {
+    "id": "Stone Giant",
+    "HP": "126",
+    "AC": "17",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-419.png"
+  },
+  {
+    "id": "Stone Golem",
+    "HP": "220",
+    "AC": "18",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-420.png"
+  },
+  {
+    "id": "Storm Giant",
+    "HP": "230",
+    "AC": "16",
+    "Speed": "50 ft., fly 25 ft. ((hover)), swim 50 ft., canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-421.png"
+  },
+  {
+    "id": "Succubus",
+    "HP": "71",
+    "AC": "15",
+    "Speed": "30 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-422.png"
+  },
+  {
+    "id": "Swarm of Bats",
+    "HP": "11",
+    "AC": "12",
+    "Speed": "5 ft., fly 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-423.png"
+  },
+  {
+    "id": "Swarm of Crawling Claws",
+    "HP": "49",
+    "AC": "12",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-424.png"
+  },
+  {
+    "id": "Swarm of Dretches",
+    "HP": "45",
+    "AC": "12",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-425.png"
+  },
+  {
+    "id": "Swarm of Insects",
+    "HP": "19",
+    "AC": "11",
+    "Speed": "20 ft., choose None ft.",
+    "avatarUrl": "/images/monsters/mm25-426.png"
+  },
+  {
+    "id": "Swarm of Larvae",
+    "HP": "22",
+    "AC": "13",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-427.png"
+  },
+  {
+    "id": "Swarm of Lemures",
+    "HP": "45",
+    "AC": "12",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-428.png"
+  },
+  {
+    "id": "Swarm of Piranhas",
+    "HP": "28",
+    "AC": "13",
+    "Speed": "5 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-429.png"
+  },
+  {
+    "id": "Swarm of Rats",
+    "HP": "14",
+    "AC": "10",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-430.png"
+  },
+  {
+    "id": "Swarm of Ravens",
+    "HP": "11",
+    "AC": "12",
+    "Speed": "10 ft., fly 50 ft.",
+    "avatarUrl": "/images/monsters/mm25-431.png"
+  },
+  {
+    "id": "Swarm of Stirges",
+    "HP": "36",
+    "AC": "14",
+    "Speed": "10 ft., fly 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-432.png"
+  },
+  {
+    "id": "Swarm of Venomous Snakes",
+    "HP": "36",
+    "AC": "14",
+    "Speed": "30 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-433.png"
+  },
+  {
+    "id": "Tarrasque",
+    "HP": "697",
+    "AC": "25",
+    "Speed": "60 ft., burrow 40 ft., climb 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-434.png"
+  },
+  {
+    "id": "Thri-kreen Marauder",
+    "HP": "33",
+    "AC": "15",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-435.png"
+  },
+  {
+    "id": "Thri-kreen Psion",
+    "HP": "149",
+    "AC": "16",
+    "Speed": "40 ft., fly 20 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-436.png"
+  },
+  {
+    "id": "Tiger",
+    "HP": "30",
+    "AC": "13",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-437.png"
+  },
+  {
+    "id": "Tough",
+    "HP": "32",
+    "AC": "12",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-438.png"
+  },
+  {
+    "id": "Tough Boss",
+    "HP": "82",
+    "AC": "16",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-439.png"
+  },
+  {
+    "id": "Treant",
+    "HP": "138",
+    "AC": "16",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-440.png"
+  },
+  {
+    "id": "Tree Blight",
+    "HP": "115",
+    "AC": "15",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-441.png"
+  },
+  {
+    "id": "Triceratops",
+    "HP": "114",
+    "AC": "14",
+    "Speed": "50 ft.",
+    "avatarUrl": "/images/monsters/mm25-442.png"
+  },
+  {
+    "id": "Troglodyte",
+    "HP": "13",
+    "AC": "11",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-443.png"
+  },
+  {
+    "id": "Troll",
+    "HP": "94",
+    "AC": "15",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-444.png"
+  },
+  {
+    "id": "Troll Limb",
+    "HP": "14",
+    "AC": "13",
+    "Speed": "20 ft.",
+    "avatarUrl": "/images/monsters/mm25-445.png"
+  },
+  {
+    "id": "Twig Blight",
+    "HP": "7",
+    "AC": "14",
+    "Speed": "20 ft.",
+    "avatarUrl": "/images/monsters/mm25-446.png"
+  },
+  {
+    "id": "Tyrannosaurus Rex",
+    "HP": "136",
+    "AC": "13",
+    "Speed": "50 ft.",
+    "avatarUrl": "/images/monsters/mm25-447.png"
+  },
+  {
+    "id": "Ultroloth",
+    "HP": "221",
+    "AC": "19",
+    "Speed": "30 ft., fly 60 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-448.png"
+  },
+  {
+    "id": "Umber Hulk",
+    "HP": "93",
+    "AC": "18",
+    "Speed": "30 ft., burrow 20 ft.",
+    "avatarUrl": "/images/monsters/mm25-449.png"
+  },
+  {
+    "id": "Unicorn",
+    "HP": "97",
+    "AC": "12",
+    "Speed": "50 ft.",
+    "avatarUrl": "/images/monsters/mm25-450.png"
+  },
+  {
+    "id": "Vampire",
+    "HP": "195",
+    "AC": "16",
+    "Speed": "40 ft., climb 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-451.png"
+  },
+  {
+    "id": "Vampire Familiar",
+    "HP": "65",
+    "AC": "15",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-452.png"
+  },
+  {
+    "id": "Vampire Nightbringer",
+    "HP": "142",
+    "AC": "16",
+    "Speed": "30 ft., fly 30 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-453.png"
+  },
+  {
+    "id": "Vampire Spawn",
+    "HP": "90",
+    "AC": "16",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-454.png"
+  },
+  {
+    "id": "Vampire Umbral Lord",
+    "HP": "187",
+    "AC": "16",
+    "Speed": "40 ft., climb 40 ft., fly 40 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-455.png"
+  },
+  {
+    "id": "Venomous Snake",
+    "HP": "5",
+    "AC": "12",
+    "Speed": "30 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-456.png"
+  },
+  {
+    "id": "Vine Blight",
+    "HP": "19",
+    "AC": "12",
+    "Speed": "20 ft.",
+    "avatarUrl": "/images/monsters/mm25-457.png"
+  },
+  {
+    "id": "Violet Fungus",
+    "HP": "18",
+    "AC": "5",
+    "Speed": "5 ft.",
+    "avatarUrl": "/images/monsters/mm25-458.png"
+  },
+  {
+    "id": "Violet Fungus Necrohulk",
+    "HP": "123",
+    "AC": "17",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-459.png"
+  },
+  {
+    "id": "Vrock",
+    "HP": "152",
+    "AC": "15",
+    "Speed": "40 ft., fly 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-460.png"
+  },
+  {
+    "id": "Vulture",
+    "HP": "5",
+    "AC": "10",
+    "Speed": "10 ft., fly 50 ft.",
+    "avatarUrl": "/images/monsters/mm25-461.png"
+  },
+  {
+    "id": "Warhorse",
+    "HP": "19",
+    "AC": "11",
+    "Speed": "60 ft.",
+    "avatarUrl": "/images/monsters/mm25-462.png"
+  },
+  {
+    "id": "Warhorse Skeleton",
+    "HP": "22",
+    "AC": "13",
+    "Speed": "60 ft.",
+    "avatarUrl": "/images/monsters/mm25-463.png"
+  },
+  {
+    "id": "Warrior Commander",
+    "HP": "161",
+    "AC": "18",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-464.png"
+  },
+  {
+    "id": "Warrior Infantry",
+    "HP": "9",
+    "AC": "13",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-465.png"
+  },
+  {
+    "id": "Warrior Veteran",
+    "HP": "65",
+    "AC": "17",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-466.png"
+  },
+  {
+    "id": "Water Elemental",
+    "HP": "114",
+    "AC": "14",
+    "Speed": "30 ft., swim 90 ft.",
+    "avatarUrl": "/images/monsters/mm25-467.png"
+  },
+  {
+    "id": "Water Weird",
+    "HP": "65",
+    "AC": "13",
+    "Speed": "5 ft., swim 60 ft.",
+    "avatarUrl": "/images/monsters/mm25-468.png"
+  },
+  {
+    "id": "Weasel",
+    "HP": "1",
+    "AC": "13",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-469.png"
+  },
+  {
+    "id": "Werebear",
+    "HP": "135",
+    "AC": "15",
+    "Speed": "30 ft., alternate None ft., climb 30 ft. ((bear form only))",
+    "avatarUrl": "/images/monsters/mm25-470.png"
+  },
+  {
+    "id": "Wereboar",
+    "HP": "97",
+    "AC": "15",
+    "Speed": "30 ft., alternate None ft.",
+    "avatarUrl": "/images/monsters/mm25-471.png"
+  },
+  {
+    "id": "Wererat",
+    "HP": "60",
+    "AC": "13",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-472.png"
+  },
+  {
+    "id": "Weretiger",
+    "HP": "120",
+    "AC": "12",
+    "Speed": "30 ft., alternate None ft.",
+    "avatarUrl": "/images/monsters/mm25-473.png"
+  },
+  {
+    "id": "Werewolf",
+    "HP": "71",
+    "AC": "15",
+    "Speed": "30 ft., alternate None ft.",
+    "avatarUrl": "/images/monsters/mm25-474.png"
+  },
+  {
+    "id": "White Dragon Wyrmling",
+    "HP": "32",
+    "AC": "16",
+    "Speed": "30 ft., burrow 15 ft., fly 60 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-475.png"
+  },
+  {
+    "id": "Wight",
+    "HP": "82",
+    "AC": "14",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-476.png"
+  },
+  {
+    "id": "Will-o'-Wisp",
+    "HP": "27",
+    "AC": "19",
+    "Speed": "5 ft., fly 50 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-477.png"
+  },
+  {
+    "id": "Winged Kobold",
+    "HP": "10",
+    "AC": "15",
+    "Speed": "30 ft., fly 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-478.png"
+  },
+  {
+    "id": "Winter Wolf",
+    "HP": "75",
+    "AC": "13",
+    "Speed": "50 ft.",
+    "avatarUrl": "/images/monsters/mm25-479.png"
+  },
+  {
+    "id": "Wolf",
+    "HP": "11",
+    "AC": "12",
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/mm25-480.png"
+  },
+  {
+    "id": "Worg",
+    "HP": "26",
+    "AC": "13",
+    "Speed": "50 ft.",
+    "avatarUrl": "/images/monsters/mm25-481.png"
+  },
+  {
+    "id": "Wraith",
+    "HP": "67",
+    "AC": "13",
+    "Speed": "5 ft., fly 60 ft. ((hover)), canHover True ft.",
+    "avatarUrl": "/images/monsters/mm25-482.png"
+  },
+  {
+    "id": "Wyvern",
+    "HP": "127",
+    "AC": "14",
+    "Speed": "30 ft., fly 80 ft.",
+    "avatarUrl": "/images/monsters/mm25-483.png"
+  },
+  {
+    "id": "Xorn",
+    "HP": "84",
+    "AC": "19",
+    "Speed": "20 ft., burrow 20 ft.",
+    "avatarUrl": "/images/monsters/mm25-484.png"
+  },
+  {
+    "id": "Yeti",
+    "HP": "51",
+    "AC": "12",
+    "Speed": "40 ft., climb 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-485.png"
+  },
+  {
+    "id": "Yochlol",
+    "HP": "153",
+    "AC": "15",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-486.png"
+  },
+  {
+    "id": "Young Black Dragon",
+    "HP": "127",
+    "AC": "18",
+    "Speed": "40 ft., fly 80 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-487.png"
+  },
+  {
+    "id": "Young Blue Dragon",
+    "HP": "152",
+    "AC": "18",
+    "Speed": "40 ft., burrow 20 ft., fly 80 ft.",
+    "avatarUrl": "/images/monsters/mm25-488.png"
+  },
+  {
+    "id": "Young Brass Dragon",
+    "HP": "110",
+    "AC": "17",
+    "Speed": "40 ft., burrow 20 ft., fly 80 ft.",
+    "avatarUrl": "/images/monsters/mm25-489.png"
+  },
+  {
+    "id": "Young Bronze Dragon",
+    "HP": "142",
+    "AC": "17",
+    "Speed": "40 ft., fly 80 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-490.png"
+  },
+  {
+    "id": "Young Copper Dragon",
+    "HP": "119",
+    "AC": "17",
+    "Speed": "40 ft., climb 40 ft., fly 80 ft.",
+    "avatarUrl": "/images/monsters/mm25-491.png"
+  },
+  {
+    "id": "Young Gold Dragon",
+    "HP": "178",
+    "AC": "18",
+    "Speed": "40 ft., fly 80 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-492.png"
+  },
+  {
+    "id": "Young Green Dragon",
+    "HP": "136",
+    "AC": "18",
+    "Speed": "40 ft., fly 80 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-493.png"
+  },
+  {
+    "id": "Young Red Dragon",
+    "HP": "178",
+    "AC": "18",
+    "Speed": "40 ft., climb 40 ft., fly 80 ft.",
+    "avatarUrl": "/images/monsters/mm25-494.png"
+  },
+  {
+    "id": "Young Remorhaz",
+    "HP": "93",
+    "AC": "14",
+    "Speed": "30 ft., burrow 20 ft.",
+    "avatarUrl": "/images/monsters/mm25-495.png"
+  },
+  {
+    "id": "Young Silver Dragon",
+    "HP": "168",
+    "AC": "18",
+    "Speed": "40 ft., fly 80 ft.",
+    "avatarUrl": "/images/monsters/mm25-496.png"
+  },
+  {
+    "id": "Young White Dragon",
+    "HP": "123",
+    "AC": "17",
+    "Speed": "40 ft., burrow 20 ft., fly 80 ft., swim 40 ft.",
+    "avatarUrl": "/images/monsters/mm25-497.png"
+  },
+  {
+    "id": "Yuan-ti Abomination",
+    "HP": "127",
+    "AC": "15",
+    "Speed": "40 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-498.png"
+  },
+  {
+    "id": "Yuan-ti Infiltrator",
+    "HP": "40",
+    "AC": "11",
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/mm25-499.png"
+  },
+  {
+    "id": "Yuan-ti Malison (Type 1)",
+    "HP": "66",
+    "AC": "12",
+    "Speed": "30 ft., climb 30 ft. ((snake form only))",
+    "avatarUrl": "/images/monsters/mm25-500.png"
+  },
+  {
+    "id": "Yuan-ti Malison (Type 2)",
+    "HP": "66",
+    "AC": "12",
+    "Speed": "30 ft., climb 30 ft. ((snake form only))",
+    "avatarUrl": "/images/monsters/mm25-501.png"
+  },
+  {
+    "id": "Yuan-ti Malison (Type 3)",
+    "HP": "66",
+    "AC": "12",
+    "Speed": "30 ft., climb 30 ft.",
+    "avatarUrl": "/images/monsters/mm25-502.png"
+  },
+  {
+    "id": "Zombie",
+    "HP": "15",
+    "AC": "8",
+    "Speed": "20 ft.",
+    "avatarUrl": "/images/monsters/mm25-503.png"
+  },
+
+
+
+
+
+  
+
+  {
+    "id": "Ancient Artillery", 
+    "HP": "85", 
+    "AC": "14", 
+    "Speed": "0 ft.",
+    "avatarUrl": "/images/monsters/gh-01.png"
+  },
+  {
+    "id": "Bandit Archer", 
+    "HP": "16", 
+    "AC": "12", 
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/gh-02.png"
+  },
+  {
+    "id": "Bandit Commander (Boss)", 
+    "HP": "90", 
+    "AC": "16", 
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/gh-03.png"
+  },
+  {
+    "id": "Bandit Guard", 
+    "HP": "27", 
+    "AC": "15", 
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/gh-04.png"
+  },
+  {
+    "id": "Black Imp", 
+    "HP": "36", 
+    "AC": "16", 
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/gh-05.png"
+  },
+  {
+    "id": "Captain of the Guard (Boss)", 
+    "HP": "115", 
+    "AC": "16", 
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/gh-06.png"
+  },
+  {
+    "id": "Cave Bear", 
+    "HP": "85", 
+    "AC": "12", 
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/gh-07.png"
+  },
+  {
+    "id": "City Archer", 
+    "HP": "45", 
+    "AC": "14", 
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/gh-08.png"
+  },
+  {
+    "id": "Acity Guard", 
+    "HP": "52", 
+    "AC": "17", 
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/gh-09.png"
+  },
+  {
+    "id": "Cultist", 
+    "HP": "22", 
+    "AC": "12", 
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/gh-10.png"
+  },
+  {
+    "id": "Dark Rider (Boss)", 
+    "HP": "150", 
+    "AC": "17", 
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/gh-11.png"
+  },
+  {
+    "id": "Deep Terror", 
+    "HP": "40", 
+    "AC": "13", 
+    "Speed": "0 ft.",
+    "avatarUrl": "/images/monsters/gh-12.png"
+  },
+  {
+    "id": "Earth Demon", 
+    "HP": "75", 
+    "AC": "15", 
+    "Speed": "20 ft.",
+    "avatarUrl": "/images/monsters/gh-13.png"
+  },
+  {
+    "id": "Elder Drake (Boss)", 
+    "HP": "300", 
+    "AC": "21", 
+    "Speed": "40 ft., fly 80 ft.",
+    "avatarUrl": "/images/monsters/gh-14.png"
+  },
+  {
+    "id": "Flame Demon", 
+    "HP": "60", 
+    "AC": "18", 
+    "Speed": "fly 30 ft.",
+    "avatarUrl": "/images/monsters/gh-15.png"
+  },
+  {
+    "id": "Forest Imp", 
+    "HP": "20", 
+    "AC": "18", 
+    "Speed": "fly 30 ft.",
+    "avatarUrl": "/images/monsters/gh-16.png"
+  },
+  {
+    "id": "Frost Demon", 
+    "HP": "75", 
+    "AC": "16", 
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/gh-17.png"
+  },
+  {
+    "id": "Giant Viper", 
+    "HP": "22", 
+    "AC": "18", 
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/gh-18.png"
+  },
+  {
+    "id": "Harrow Infester", 
+    "HP": "80", 
+    "AC": "15", 
+    "Speed": "fly 30 ft.",
+    "avatarUrl": "/images/monsters/gh-19.png"
+  },
+  {
+    "id": "Hound", 
+    "HP": "28", 
+    "AC": "14", 
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/gh-20.png"
+  },
+  {
+    "id": "Inox Archer", 
+    "HP": "40", 
+    "AC": "15", 
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/gh-21.png"
+  },
+  {
+    "id": "Inox Bodyguard (Boss)", 
+    "HP": "150", 
+    "AC": "16", 
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/gh-22.png"
+  },
+  {
+    "id": "Inox Guard", 
+    "HP": "65", 
+    "AC": "16", 
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/gh-23.png"
+  },
+  {
+    "id": "Inox Shaman", 
+    "HP": "50", 
+    "AC": "15", 
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/gh-24.png"
+  },
+  {
+    "id": "Living Bones", 
+    "HP": "36", 
+    "AC": "15", 
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/gh-25.png"
+  },
+  {
+    "id": "Living Corpse", 
+    "HP": "95", 
+    "AC": "12", 
+    "Speed": "20 ft.",
+    "avatarUrl": "/images/monsters/gh-26.png"
+  },
+  {
+    "id": "Living Spirit", 
+    "HP": "30", 
+    "AC": "18", 
+    "Speed": "fly 40 ft.",
+    "avatarUrl": "/images/monsters/gh-27.png"
+  },
+  {
+    "id": "Lurker", 
+    "HP": "85", 
+    "AC": "16", 
+    "Speed": "40 ft., swim 30 ft.",
+    "avatarUrl": "/images/monsters/gh-28.png"
+  },
+  {
+    "id": "Merciless Overseer (Boss)", 
+    "HP": "120", 
+    "AC": "15", 
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/gh-29.png"
+  },
+  {
+    "id": "Night Demon", 
+    "HP": "75", 
+    "AC": "16", 
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/gh-30.png"
+  },
+  {
+    "id": "Ooze", 
+    "HP": "90", 
+    "AC": "8", 
+    "Speed": "20 ft.",
+    "avatarUrl": "/images/monsters/gh-31.png"
+  },
+  {
+    "id": "Prime Demon (Boss)", 
+    "HP": "250", 
+    "AC": "17", 
+    "Speed": "40 ft., fly 40 ft.",
+    "avatarUrl": "/images/monsters/gh-32.png"
+  },
+  {
+    "id": "Rending Drake", 
+    "HP": "55", 
+    "AC": "15", 
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/gh-33.png"
+  },
+  {
+    "id": "Savvas Icestorm", 
+    "HP": "50", 
+    "AC": "18", 
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/gh-34.png"
+  },
+  {
+    "id": "Savvas Lavaflow", 
+    "HP": "60", 
+    "AC": "17", 
+    "Speed": "fly 30 ft.",
+    "avatarUrl": "/images/monsters/gh-35.png"
+  },
+  {
+    "id": "Shiera (Boss)", 
+    "HP": "135", 
+    "AC": "20", 
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/gh-36.png"
+  },
+  {
+    "id": "Spitting Drake", 
+    "HP": "50", 
+    "AC": "14", 
+    "Speed": "fly 30 ft.",
+    "avatarUrl": "/images/monsters/gh-37.png"
+  },
+  {
+    "id": "Stone Golem", 
+    "HP": "100", 
+    "AC": "16", 
+    "Speed": "20 ft.",
+    "avatarUrl": "/images/monsters/gh-38.png"
+  },
+  {
+    "id": "Sun Demon", 
+    "HP": "75", 
+    "AC": "17", 
+    "Speed": "fly 30 ft.",
+    "avatarUrl": "/images/monsters/gh-39.png"
+  },
+  {
+    "id": "The Betrayer (Boss)", 
+    "HP": "200", 
+    "AC": "18", 
+    "Speed": "fly 30 ft.",
+    "avatarUrl": "/images/monsters/gh-40.png"
+  },
+  {
+    "id": "The Colorless (Boss)", 
+    "HP": "200", 
+    "AC": "17", 
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/gh-41.png"
+  },
+  {
+    "id": "The Gloom (Boss)", 
+    "HP": "400", 
+    "AC": "22", 
+    "Speed": "40 ft.",
+    "avatarUrl": "/images/monsters/gh-42.png"
+  },
+  {
+    "id": "The Sightless Eye (Boss)", 
+    "HP": "180", 
+    "AC": "20", 
+    "Speed": "0 ft.",
+    "avatarUrl": "/images/monsters/gh-43.png"
+  },
+  {
+    "id": "Vermling Scout", 
+    "HP": "30", 
+    "AC": "15", 
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/gh-44.png"
+  },
+  {
+    "id": "Vermling Shaman", 
+    "HP": "27", 
+    "AC": "17", 
+    "Speed": "30 ft.",
+    "avatarUrl": "/images/monsters/gh-45.png"
+  },
+  {
+    "id": "Wind Demon", 
+    "HP": "60", 
+    "AC": "18", 
+    "Speed": "fly 30 ft.",
+    "avatarUrl": "/images/monsters/gh-46.png"
+  },
+  {
+    "id": "Winged Horror (Boss)", 
+    "HP": "220", 
+    "AC": "20", 
+    "Speed": "30 ft., fly 30 ft.",
+    "avatarUrl": "/images/monsters/gh-47.png"
+  }
+]

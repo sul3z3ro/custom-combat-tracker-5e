@@ -29,14 +29,14 @@ export default function ConditionInfoOverlay({ title, description, onClose, onDe
           {onDelete && (
             <button
               onClick={onDelete}
-              className="bg-red-600 text-white px-2 sm:px-3 py-1 rounded text-xs sm:text-sm"
+              className="px-3 py-1 rounded bg-red-500 text-white text-sm sm:text-base cursor-pointer hover:bg-red-600 transition-colors"
             >
               ลบสถานะ
             </button>
           )}
           <button
             onClick={onClose}
-            className="bg-gray-700 text-white px-2 sm:px-3 py-1 rounded text-xs sm:text-sm"
+            className="px-3 py-1 rounded bg-blue-500 text-white text-sm sm:text-base cursor-pointer hover:bg-blue-600 transition-colors"
           >
             ปิด
           </button>

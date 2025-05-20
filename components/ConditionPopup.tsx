@@ -11,8 +11,8 @@ export default function ConditionPopup({ conditionName, dcStat, dcValue, onResul
       <div className="bg-white p-3 sm:p-4 rounded shadow text-black w-full max-w-xs sm:max-w-sm text-center">
         <p className="mb-3 sm:mb-4 font-semibold text-base sm:text-lg">
           {dcStat !== "None" && dcValue
-            ? `ทอย DC ${dcValue} ${dcStat} saving throw สำหรับสถานะ "${conditionName}" สำเร็จหรือไม่?`
-            : `ทำ Saving Throw สำหรับสถานะ "${conditionName}" ผ่านหรือไม่?`}
+            ? `ทอย DC ${dcValue} ${dcStat} saving throw สำหรับสถานะ "${conditionName}" ผ่านหรือไม่?`
+            : `ทอย saving throw สำหรับสถานะ "${conditionName}" ผ่านหรือไม่?`}
         </p>
         <div className="flex justify-center gap-3 sm:gap-4">
           <button

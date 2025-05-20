@@ -1,10 +1,54 @@
-import { useEffect, useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import ConditionBadge from "./ConditionBadge";
 import ConditionModal from "./ConditionModal";
 import ConditionPopup from "./ConditionPopup";
 import ConditionInfoOverlay from "./ConditionInfoOverlay";
-import conditionInfo from "./ConditionInfo";
+import StatblockPopup from "./StatblockPopup"; // <<-- import ตัวใหม่
+
+type StatblockData = {
+  id: string;
+  name: string;
+  size: string;
+  type: string;
+  alignment: string;
+  source?: string;
+  AC?: string;
+  HP?: string;
+  Speed?: string;
+  abilities?: {
+    STR: number;
+    DEX: number;
+    CON: number;
+    INT: number;
+    WIS: number;
+    CHA: number;
+  };
+  abilityModifiers?: {
+    STR: string;
+    DEX: string;
+    CON: string;
+    INT: string;
+    WIS: string;
+    CHA: string;
+  };
+  skills?: { [key: string]: string };
+  resistances?: string;
+  immunities?: string;
+  vulnerabilities?: string;
+  senses?: string;
+  languages?: string;
+  CR?: string;
+  traits?: { name: string; description: string }[];
+  actions?: { name: string; description: string }[];
+  bonusActions?: { name: string; description: string }[];
+  reactions?: { name: string; description: string }[];
+  legendaryActions?: { name: string; description: string }[];
+  lairActions?: { name: string; description: string }[];
+  regionalEffects?: { name: string; description: string }[];
+  avatarUrl?: string;
+};
+
 
 type Condition = {
   id: string;
@@ -29,6 +73,8 @@ type Character = {
   AC?: string;
   Speed?: string;
   displayName?: string;
+  avatarUrl?: string;
+  monsterId?: string; // เพิ่มสำหรับเชื่อม Statblock
 };
 
 type Props = {
@@ -52,7 +98,7 @@ export default function CharacterCard({
   triggerEndCheck = false,
   onDeleteCharacter,
   onEndConditionResolved,
-  onStartConditionResolved
+  onStartConditionResolved,
 }: Props) {
   const [conditions, setConditions] = useState<Condition[]>([]);
   const [showAddModal, setShowAddModal] = useState(false);
@@ -61,7 +107,23 @@ export default function CharacterCard({
   const [infoOverlay, setInfoOverlay] = useState<string | null>(null);
   const prevStartTriggerRef = useRef(false);
   const prevEndTriggerRef = useRef(false);
+  const [selectedStatblock, setSelectedStatblock] = useState<StatblockData | null>(null);
 
+  // <<-- state สำหรับ Statblock Popup
+  const [showStatblock, setShowStatblock] = useState(false);
+  const handleShowStatblock = async () => {
+  if (char.type === "Monster") {
+    const response = await fetch("/statblock/statblock.json");
+    const statblockList: StatblockData[] = await response.json();
+    const found = statblockList.find(
+      m => m.id === char.monsterId || m.name === char.name
+    );
+    if (found) {
+      setSelectedStatblock(found);
+      setShowStatblock(true);
+      }
+    }
+  };
   // Handle Start of Turn conditions
   useEffect(() => {
     if (triggerStartCheck && !prevStartTriggerRef.current) {
@@ -70,11 +132,9 @@ export default function CharacterCard({
         setPopupQueue(startConds);
         setPendingTriggerType("start");
       } else {
-        // No start conditions, notify parent we're done
         onStartConditionResolved?.();
       }
     }
-
     prevStartTriggerRef.current = triggerStartCheck;
   }, [triggerStartCheck, conditions]);
 
@@ -86,12 +146,10 @@ export default function CharacterCard({
         setPopupQueue(endConds);
         setPendingTriggerType("end");
       } else {
-        // No end conditions, reduce rounds and notify parent we're done
         reduceRounds();
         onEndConditionResolved?.();
       }
     }
-
     prevEndTriggerRef.current = triggerEndCheck;
   }, [triggerEndCheck, conditions]);
 
@@ -106,7 +164,7 @@ export default function CharacterCard({
             return {
               ...c,
               remainingRounds: c.remainingRounds - 1,
-              lastReducedAtRound: currentRound
+              lastReducedAtRound: currentRound,
             };
           }
           return c;
@@ -126,19 +184,16 @@ export default function CharacterCard({
 
     if (success) {
       setConditions((prev) => prev.filter((c) => c.id !== current.id));
-    } else if (pendingTriggerType === "end") {
-      // Don't reduce rounds here, we'll do it when all conditions are processed
-    }
-
+    } // fail: ไม่ลดรอบที่นี่
     const remaining = [...popupQueue.slice(1)];
     setPopupQueue(remaining);
 
     if (remaining.length === 0) {
       if (pendingTriggerType === "end") {
         reduceRounds();
-        onEndConditionResolved?.(); // Notify that end conditions are resolved
+        onEndConditionResolved?.();
       } else if (pendingTriggerType === "start") {
-        onStartConditionResolved?.(); // Notify that start conditions are resolved
+        onStartConditionResolved?.();
       }
       setPendingTriggerType(null);
     }
@@ -149,6 +204,7 @@ export default function CharacterCard({
     setInfoOverlay(null);
   };
 
+  // --- Render ส่วนของการ์ด ---
   return (
     <>
       <motion.div
@@ -161,59 +217,82 @@ export default function CharacterCard({
       >
         <div className="flex flex-col sm:flex-row justify-between">
           <div className="w-full">
-            <div className="flex flex-wrap items-center gap-2 mb-1">
-              <div className="font-bold text-sm md:text-base truncate max-w-[calc(100%-80px)]">
-                {char.displayName ?? `(${char.initiative})${char.name}`}
+            <div className="flex items-center gap-3 mb-1">
+              {/* อวตาร */}
+              <div className="flex-shrink-0">
+                {char.avatarUrl ? (
+                  <img
+                    src={char.avatarUrl}
+                    alt={`${char.name} avatar`}
+                    className="w-12 h-12 md:w-16 md:h-16 rounded-full object-cover border-2 border-gray-300"
+                  />
+                ) : (
+                  <div className="w-12 h-12 md:w-16 md:h-16 rounded-full bg-gray-200 flex items-center justify-center text-gray-400">
+                    ?
+                  </div>
+                )}
               </div>
-              <button
-                className="bg-gray-300 text-black px-2 py-1 text-xs rounded whitespace-nowrap"
-                onClick={() => setShowAddModal(true)}
-              >
-                + สถานะ
-              </button>
+              {/* ชื่อ: คลิกแล้วโชว์ Statblock (เฉพาะ Monster) */}
+              <div className="flex-1 min-w-0">
+                {char.type === "Monster" ? (
+                  <span
+                    className="font-bold text-base md:text-lg text-black hover:underline cursor-pointer"
+                    title="ดู Statblock"
+                    onClick={handleShowStatblock}
+                  >
+                    {char.displayName ?? `(${char.initiative}) ${char.name}`}
+                  </span>
+                ) : (
+                  <span className="font-bold text-base md:text-lg">{char.displayName ?? char.name}</span>
+                )}
+                {/* HP, AC, Speed — แยกบรรทัด */}
+                {char.HP && <div className="text-xs text-gray-600">HP: {char.HP}</div>}
+                {char.AC && <div className="text-xs text-gray-600">AC: {char.AC}</div>}
+                {char.Speed && <div className="text-xs text-gray-600">Speed: {char.Speed}</div>}
+              </div>
+
+              {/* เพิ่มปุ่มกะโหลกลบ/จบเทิร์น/ฯลฯ ตรงนี้ได้ */}
             </div>
-            {char.type === "Monster" && (
-              <div className="text-xs md:text-sm pl-0 md:pl-6 flex flex-wrap gap-x-4">
-                {char.HP && <div>HP: {char.HP}</div>}
-                {char.AC && <div>AC: {char.AC}</div>}
-                {char.Speed && <div>Speed: {char.Speed}</div>}
-              </div>
-            )}
-            <div className="flex flex-wrap mt-2">
-              {conditions.map((cond) => (
+            {/* Conditions badge */}
+            <div className="flex flex-wrap items-center">
+              {conditions.map((c) => (
                 <ConditionBadge
-                  key={cond.id}
-                  condition={cond}
+                  key={c.id}
+                  condition={c}
                   onClickInfo={(name) => setInfoOverlay(name)}
                 />
               ))}
+              <button
+                className="ml-1 px-2 py-0.5 bg-green-100 text-green-800 rounded text-xs hover:bg-green-200 cursor-pointer"
+                onClick={() => setShowAddModal(true)}
+              >
+                + Condition
+              </button>
             </div>
           </div>
         </div>
-
-        <div className="flex justify-end mt-2 gap-2">
-          {isActive && onEndTurn && (
+        {/* ปุ่มจบเทิร์น, ปุ่มลบตัวละคร, ... */}
+        <div className="flex justify-end gap-2 mt-2">
+          {onEndTurn && isActive && (
             <button
-              className="bg-blue-500 text-white px-2 py-1 text-xs md:text-sm rounded"
+              className="px-3 py-1 bg-blue-500 text-white rounded text-xs hover:bg-blue-700 cursor-pointer"
               onClick={onEndTurn}
             >
-              จบเทิร์น
+              End Turn
             </button>
           )}
-          
-          <button
-            className="text-red-600 text-lg md:text-xl"
-            onClick={() => {
-              if (window.confirm(`${char.displayName} ถูกกำจัดแล้วใช่หรือไม่?`)) {
-                onDeleteCharacter?.();
-              }
-            }}
-          >
-            💀
-          </button>
+          {onDeleteCharacter && (
+            <button
+              className="px-2 py-1 bg-red-500 text-white rounded text-xs hover:bg-red-700 cursor-pointer"
+              onClick={onDeleteCharacter}
+              title="ลบตัวละครนี้"
+            >
+              💀
+            </button>
+          )}
         </div>
       </motion.div>
-
+      {/* Modal: เพิ่มสถานะ */}
       {showAddModal && (
         <ConditionModal
           onAdd={handleAddCondition}
@@ -221,7 +300,19 @@ export default function CharacterCard({
           currentRound={currentRound}
         />
       )}
-
+      {/* Modal: ข้อมูลสถานะ */}
+      {infoOverlay && (
+        <ConditionInfoOverlay
+          title={infoOverlay}
+          description={
+            // หา description ตาม conditionInfo (ต้องมีไฟล์ conditionInfo.json/ts)
+            require("./ConditionInfo").default[infoOverlay]?.description || ""
+          }
+          onClose={() => setInfoOverlay(null)}
+          onDelete={() => handleDeleteCondition(infoOverlay)}
+        />
+      )}
+      {/* Modal: popup saving throw */}
       {popupQueue.length > 0 && (
         <ConditionPopup
           conditionName={popupQueue[0].name}
@@ -230,13 +321,14 @@ export default function CharacterCard({
           onResult={handleResult}
         />
       )}
-
-      {infoOverlay && (
-        <ConditionInfoOverlay
-          title={infoOverlay}
-          description={conditionInfo[infoOverlay] || "ไม่มีข้อมูล"}
-          onClose={() => setInfoOverlay(null)}
-          onDelete={() => handleDeleteCondition(infoOverlay)}
+      {/* Modal: StatblockPopup */}
+      {showStatblock && char.type === "Monster" && selectedStatblock && (
+        <StatblockPopup
+          statblock={selectedStatblock}
+          onClose={() => {
+            setShowStatblock(false);
+            setSelectedStatblock(null);
+          }}
         />
       )}
     </>

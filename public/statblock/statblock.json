@@ -1,50 +1,129 @@
 [
   {
-    "id": "Goblin", 
-    "HP": "15 (2d6+3)", 
-    "AC": "12", 
-    "Speed": "Walk 30 ft."
+    "id": "aarakocra-aeromancer",
+    "name": "Aarakocra Aeromancer",
+    "source": "XMM",
+    "page": 10,
+    "size": "Medium",
+    "type": "Elemental",
+    "alignment": "Neutral",
+    "AC": "16",
+    "HP": "66 (12d8 + 12)",
+    "Speed": "20 ft., fly 50 ft.",
+    "abilities": {
+      "STR": 10,
+      "DEX": 16,
+      "CON": 12,
+      "INT": 13,
+      "WIS": 17,
+      "CHA": 12
+    },
+    "abilityModifiers": {
+      "STR": "+0",
+      "DEX": "+3",
+      "CON": "+1",
+      "INT": "+1",
+      "WIS": "+3",
+      "CHA": "+1"
+    },
+    "savingThrows": {
+      "DEX": "+5",
+      "WIS": "+5"
+    },
+    "skills": {
+      "Arcana": "+3",
+      "Nature": "+5",
+      "Perception": "+7"
+    },
+    "resistances": "",
+    "immunities": "",
+    "vulnerabilities": "",
+    "senses": "Passive Perception 17",
+    "languages": "Aarakocra, Primordial (Auran)",
+    "CR": "4",
+    "traits": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "description": "The aarakocra makes two Wind Staff attacks, and it can use Spellcasting to cast Gust of Wind."
+      },
+      {
+        "name": "Wind Staff",
+        "description": "Melee or Ranged Weapon Attack: +5 to hit, reach 5 ft. or range 120 ft. Hit: 7 (1d8 + 3) Bludgeoning damage plus 11 (2d10) Lightning damage."
+      },
+      {
+        "name": "Spellcasting",
+        "description": "The aarakocra casts one of the following spells, requiring no Material components and using Wisdom as the spellcasting ability (spell save DC 13):\nAt will: Elementalism, Gust of Wind, Mage Hand, Message\n1/day: Lightning Bolt"
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [
+      {
+        "name": "Feather Fall (1/Day)",
+        "description": "The aarakocra casts Feather Fall in response to that spell's trigger, using the same spellcasting ability as Spellcasting."
+      }
+    ],
+    "legendaryActions": [],
+    "lairActions": [],
+    "regionalEffects": [],
+    "environment": "Mountain, Planar (Air)",
+    "avatarUrl": "/images/monsters/mm25-1.png"
   },
   {
-    "id": "Kobold", 
-    "HP": "20 (2d10+1)", 
-    "AC": "15", 
-    "Speed": "Walk 30 ft."
-  },
-  {
-    "id": "Orc", 
-    "HP": "20 (2d10+1)", 
-    "AC": "15", 
-    "Speed": "Walk 30 ft."
-  },
-  {
-    "id": "Cultist", 
-    "HP": "20 (2d10+1)", 
-    "AC": "15", 
-    "Speed": "Walk 30 ft."
-  },
-  {
-    "id": "Gnome", 
-    "HP": "20 (2d10+1)", 
-    "AC": "15", 
-    "Speed": "Walk 30 ft."
-  },
-  {
-    "id": "Zombie", 
-    "HP": "20 (2d10+1)", 
-    "AC": "15", 
-    "Speed": "Walk 30 ft."
-  },
-  {
-    "id": "Skeleton", 
-    "HP": "20 (2d10+1)", 
-    "AC": "15", 
-    "Speed": "Walk 30 ft."
-  },
-  {
-    "id": "Vermling", 
-    "HP": "20 (2d10+1)", 
-    "AC": "15", 
-    "Speed": "Walk 30 ft."
+    "id": "goblin-minion",
+    "name": "Goblin Minion",
+    "source": "MM",
+    "page": 166,
+    "size": "Small",
+    "type": "humanoid (goblinoid)",
+    "alignment": "Neutral Evil",
+    "AC": "15 (leather armor, shield)",
+    "HP": "7 (2d6)",
+    "Speed": "30 ft.",
+    "abilities": {
+      "STR": 8,
+      "DEX": 14,
+      "CON": 10,
+      "INT": 10,
+      "WIS": 8,
+      "CHA": 8
+    },
+    "abilityModifiers": {
+      "STR": "-1",
+      "DEX": "+2",
+      "CON": "+0",
+      "INT": "+0",
+      "WIS": "-1",
+      "CHA": "-1"
+    },
+    "skills": {
+      "Stealth": "+6"
+    },
+    "senses": "Darkvision 60 ft., Passive Perception 9",
+    "languages": "Common, Goblin",
+    "CR": "1/4",
+    "traits": [
+      {
+        "name": "Nimble Escape",
+        "description": "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+      }
+    ],
+    "actions": [
+      {
+        "name": "Scimitar",
+        "description": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage."
+      },
+      {
+        "name": "Shortbow",
+        "description": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "lairActions": [],
+    "regionalEffects": [],
+    "environment": "Forest, Grassland, Mountain, Underdark",
+    "avatarUrl": "/images/monsters/mm25-217.png"
   }
 ]
