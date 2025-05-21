@@ -41,8 +41,6 @@ type StatblockData = {
   lairActions?: { name: string; description: string }[];
   regionalEffects?: { name: string; description: string }[];
   avatarUrl?: string;
-  legendaryIntro?: string;
-  lairIntro?: string;
 };
 
 interface Props {
@@ -66,8 +64,7 @@ export default function StatblockPopup({ statblock, onClose }: Props) {
     AC, HP, Speed, abilities, abilityModifiers, 
     savingThrows, skills, resistances, immunities, vulnerabilities,
     senses, languages, CR, avatarUrl,
-    traits, actions, bonusActions, reactions, legendaryActions, lairActions, legendaryIntro, lairIntro,
-    regionalEffects
+    traits, actions, bonusActions, reactions, legendaryActions, lairActions, regionalEffects
   } = statblock;
 
   // Markdown minimal
@@ -187,36 +184,10 @@ export default function StatblockPopup({ statblock, onClose }: Props) {
         {reactions && reactions.length > 0 && renderSection("Reactions", reactions)}
 
         {/* Legendary Actions */}
-        {legendaryActions && legendaryActions.length > 0 && legendaryIntro && legendaryIntro.trim() !== "" && (
-          <div className="mt-3">
-            <div className="font-bold text-xl border-b-2 border-red-900 text-red-900 mb-1" style={{ fontFamily: "'Scala Sans Offc'" }}>Legendary Actions</div>
-            <div className="italic font-[Scala Sans Offc] text-[15px] mb-2">{legendaryIntro}</div>
-            <ul className="space-y-0">
-              {legendaryActions.map((e, idx) =>
-                <li key={idx} className="pl-2">
-                  <span className="font-semibold italic text-[15px]" style={{ fontFamily: "'Scala Sans Offc'" }}>{e.name}.</span>{" "}
-                  <span style={{ fontFamily: "'Scala Sans Offc'", fontSize: "15px" }}>{renderDescription(e.description)}</span>
-                </li>
-              )}
-            </ul>
-          </div>
-        )}
+        {legendaryActions && legendaryActions.length > 0 && renderSection("Legendary Actions", legendaryActions)}
 
         {/* Lair Actions */}
-        {lairActions && lairActions.length > 0 && lairIntro && lairIntro.trim() !== "" && (
-          <div className="mt-3">
-            <div className="font-bold text-xl border-b-2 border-red-900 text-red-900 mb-1" style={{ fontFamily: "'Scala Sans Offc'" }}>Lair Actions</div>
-            <div className="italic font-[Scala Sans Offc] text-[15px] mb-2">{lairIntro}</div>
-            <ul className="space-y-0">
-              {lairActions.map((e, idx) =>
-                <li key={idx} className="pl-2">
-                  <span className="font-semibold italic text-[15px]" style={{ fontFamily: "'Scala Sans Offc'" }}>{e.name}.</span>{" "}
-                  <span style={{ fontFamily: "'Scala Sans Offc'", fontSize: "15px" }}>{renderDescription(e.description)}</span>
-                </li>
-              )}
-            </ul>
-          </div>
-        )}
+        {lairActions && lairActions.length > 0 && renderSection("Lair Actions", lairActions)}
 
         {/* Regional Effects */}
         {regionalEffects && regionalEffects.length > 0 && renderSection("Regional Effects", regionalEffects)}

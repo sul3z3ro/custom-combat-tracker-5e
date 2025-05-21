@@ -47,6 +47,8 @@ type StatblockData = {
   lairActions?: { name: string; description: string }[];
   regionalEffects?: { name: string; description: string }[];
   avatarUrl?: string;
+  legendaryIntro?: string;
+  lairIntro?: string;
 };
 
 
